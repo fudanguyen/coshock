@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f28ab09b-88e3-e411-b4ac-0026b9784a52++6241",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f28ab09b-88e3-e411-b4ac-0026b9784a52++6241" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f28ab09b-88e3-e411-b4ac-0026b9784a52++6241" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD834E80-5A4A-4D11-880C-A25BC349B558",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f28ab09b-88e3-e411-b4ac-0026b9784a52++6241" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Shock_1.0",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Shock_1.0.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/voparis-svn.obspm.fr\/Shock",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f28ab09b-88e3-e411-b4ac-0026b9784a52++6241"
+    }
+  ]
+}

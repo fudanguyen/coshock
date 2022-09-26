@@ -1,0 +1,60 @@
+######################## First run, steady state 
+	# in the shock_model folder
+		which gfortran && gfortran --version # check
+	
+		cd mtx
+		make clean 
+		make
+	
+		cd ..
+		make clean
+		make
+		./mhd_vode # test run, ctrl+c if okay
+	
+	# modify the input_mhd.in file
+		cd input
+		nano input_mhd.in
+	
+	# What to edit?
+		# shock type: C (steady state)
+		# no. of fluid components: 1
+		# (neutral, electron, ion all into 1)
+		# Bbeta (mag. field): 0.0
+		# Tn: initial temperature (i.e. 10K)
+	
+	# Copy chemical network, run
+		cp species_change_Flower.in species.in
+		cp species_change_Flower.in species.in
+		cd ..
+		./mhd_vode # Wait...
+###################################################
+
+############### Second run, use steady state result
+	# View 
+		cd output
+		nano species.out
+	
+	# Copy steady-state chemical network --> input
+	# Run twice to make sure
+		cd ..
+		cd output/species.out input/species.in
+		cd output/species.out input/species.in
+		
+	# Copy steady state temperature
+		nano input/species.in
+	# View the steady-temperature, use as new input!
+		nano input/input_mhd.in
+	
+	# What to edit?
+		# shock type: still C meaning 'C shock'
+		# no. of fluid components: 3 (three types now separate)
+		# Bbeta (mag. field): 1.5 (test)
+		# Tn: steady-state temperature (i.e. 34.52K)
+		
+	# Run again and check result
+		cd ..
+	# Wait ... will takes some time
+		cd output
+		nano info_mhd.out # every important input in this file
+		nano mhd_phys.out # every physical results this file
+##########################################################k

@@ -1,0 +1,1508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		DC0EACCB1F72B98400E8CECB /* Draine1985-Dielec-func.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Draine1985-Dielec-func.dat"; sourceTree = "<group>"; };
+		DC0EACCC1F72B98400E8CECB /* Mix_hcapa_BG_10_2013.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mix_hcapa_BG_10_2013.dat; sourceTree = "<group>"; };
+		DC0EACCD1F72B98400E8CECB /* Mix_Qcoef_BG_10_2013.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mix_Qcoef_BG_10_2013.dat; sourceTree = "<group>"; };
+		DC0EAD1B1F72B99100E8CECB /* uvh2b29.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = uvh2b29.dat; sourceTree = "<group>"; };
+		DC0EAD1C1F72B99100E8CECB /* uvh2c29.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = uvh2c29.dat; sourceTree = "<group>"; };
+		DC0EAD1D1F72BA3300E8CECB /* chemistry.in_noadso */ = {isa = PBXFileReference; lastKnownFileType = text; path = chemistry.in_noadso; sourceTree = "<group>"; };
+		DC0EAD1E1F72BA3300E8CECB /* h2levels.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = h2levels.in; sourceTree = "<group>"; };
+		DC0EAD1F1F72BA3300E8CECB /* species.in_depl */ = {isa = PBXFileReference; lastKnownFileType = text; path = species.in_depl; sourceTree = "<group>"; };
+		DC3FACBC2170A34200CF661F /* NH2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH2_pi.txt; sourceTree = "<group>"; };
+		DC3FACBD2170A34200CF661F /* H2S_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2S_pd.txt; sourceTree = "<group>"; };
+		DC3FACBE2170A34200CF661F /* O_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = O_pi.txt; sourceTree = "<group>"; };
+		DC3FACBF2170A34200CF661F /* CH_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH_pi_old.txt; sourceTree = "<group>"; };
+		DC3FACC02170A34200CF661F /* HCl_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCl_pi.txt; sourceTree = "<group>"; };
+		DC3FACC12170A34200CF661F /* C_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C_pi.txt; sourceTree = "<group>"; };
+		DC3FACC22170A34200CF661F /* CN_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CN_pd_old.txt; sourceTree = "<group>"; };
+		DC3FACC32170A34200CF661F /* CO2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CO2_pd.txt; sourceTree = "<group>"; };
+		DC3FACC42170A34200CF661F /* SO2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SO2_pi.txt; sourceTree = "<group>"; };
+		DC3FACC52170A34200CF661F /* CN_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CN_pi.txt; sourceTree = "<group>"; };
+		DC3FACC62170A34200CF661F /* CS_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CS_pd.txt; sourceTree = "<group>"; };
+		DC3FACC72170A34200CF661F /* CH3_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH3_pd.txt; sourceTree = "<group>"; };
+		DC3FACC82170A34200CF661F /* N2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = N2_pd.txt; sourceTree = "<group>"; };
+		DC3FACC92170A34200CF661F /* CH+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CH+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACCA2170A34200CF661F /* H2CO_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2CO_pi.txt; sourceTree = "<group>"; };
+		DC3FACCB2170A34200CF661F /* O2+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "O2+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACCC2170A34200CF661F /* C2H2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2H2_pd.txt; sourceTree = "<group>"; };
+		DC3FACCD2170A34200CF661F /* H2O_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2O_pi_old.txt; sourceTree = "<group>"; };
+		DC3FACCE2170A34200CF661F /* Cl_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cl_pi.txt; sourceTree = "<group>"; };
+		DC3FACCF2170A34200CF661F /* CH3OH_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH3OH_pi.txt; sourceTree = "<group>"; };
+		DC3FACD02170A34200CF661F /* CH4_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH4_pi.txt; sourceTree = "<group>"; };
+		DC3FACD12170A34200CF661F /* O2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = O2_pd.txt; sourceTree = "<group>"; };
+		DC3FACD22170A34200CF661F /* Fe_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fe_pi.txt; sourceTree = "<group>"; };
+		DC3FACD32170A34200CF661F /* l-C3H2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "l-C3H2_pd.txt"; sourceTree = "<group>"; };
+		DC3FACD42170A34200CF661F /* OH_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OH_pi_old.txt; sourceTree = "<group>"; };
+		DC3FACD52170A34200CF661F /* Si_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Si_pi.txt; sourceTree = "<group>"; };
+		DC3FACD62170A34200CF661F /* SiH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SiH_pd.txt; sourceTree = "<group>"; };
+		DC3FACD72170A34200CF661F /* CH2+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CH2+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACD82170A34200CF661F /* C2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2_pi.txt; sourceTree = "<group>"; };
+		DC3FACD92170A34200CF661F /* S2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = S2_pd.txt; sourceTree = "<group>"; };
+		DC3FACDA2170A34200CF661F /* HCN_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCN_pi.txt; sourceTree = "<group>"; };
+		DC3FACDB2170A34200CF661F /* C_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C_pi_old.txt; sourceTree = "<group>"; };
+		DC3FACDC2170A34200CF661F /* H2+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "H2+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACDD2170A34200CF661F /* C2_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2_pd_old.txt; sourceTree = "<group>"; };
+		DC3FACDE2170A34200CF661F /* CH_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH_pi.txt; sourceTree = "<group>"; };
+		DC3FACDF2170A34200CF661F /* NH_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH_pd_old.txt; sourceTree = "<group>"; };
+		DC3FACE02170A34200CF661F /* threshold_dissociation_ionization_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = threshold_dissociation_ionization_2.pdf; sourceTree = "<group>"; };
+		DC3FACE12170A34200CF661F /* SH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SH_pd.txt; sourceTree = "<group>"; };
+		DC3FACE22170A34200CF661F /* NO_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NO_pi.txt; sourceTree = "<group>"; };
+		DC3FACE32170A34200CF661F /* OCS_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OCS_pd.txt; sourceTree = "<group>"; };
+		DC3FACE42170A34200CF661F /* OH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OH_pd.txt; sourceTree = "<group>"; };
+		DC3FACE52170A34200CF661F /* HCO_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCO_pd.txt; sourceTree = "<group>"; };
+		DC3FACE62170A34200CF661F /* C3_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C3_pd.txt; sourceTree = "<group>"; };
+		DC3FACE72170A34200CF661F /* NH3_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH3_pd.txt; sourceTree = "<group>"; };
+		DC3FACE82170A34200CF661F /* H2O_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2O_pd.txt; sourceTree = "<group>"; };
+		DC3FACE92170A34200CF661F /* S_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = S_pi.txt; sourceTree = "<group>"; };
+		DC3FACEA2170A34200CF661F /* NH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH_pd.txt; sourceTree = "<group>"; };
+		DC3FACEB2170A34200CF661F /* OH+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OH+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACEC2170A34200CF661F /* NH+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NH+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACED2170A34200CF661F /* H3+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "H3+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACEE2170A34200CF661F /* SO_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SO_pi.txt; sourceTree = "<group>"; };
+		DC3FACEF2170A34200CF661F /* c-C3H2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "c-C3H2_pd.txt"; sourceTree = "<group>"; };
+		DC3FACF02170A34200CF661F /* HNC_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HNC_pi.txt; sourceTree = "<group>"; };
+		DC3FACF12170A34200CF661F /* HNC_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HNC_pd.txt; sourceTree = "<group>"; };
+		DC3FACF22170A34200CF661F /* H-_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "H-_pi.txt"; sourceTree = "<group>"; };
+		DC3FACF32170A34200CF661F /* CO+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CO+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACF42170A34200CF661F /* SO_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SO_pd.txt; sourceTree = "<group>"; };
+		DC3FACF52170A34200CF661F /* CH2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH2_pd.txt; sourceTree = "<group>"; };
+		DC3FACF62170A34200CF661F /* N_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = N_pi.txt; sourceTree = "<group>"; };
+		DC3FACF72170A34200CF661F /* SiH+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SiH+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACF82170A34200CF661F /* NH_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH_pi.txt; sourceTree = "<group>"; };
+		DC3FACF92170A34200CF661F /* H2O_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2O_pi.txt; sourceTree = "<group>"; };
+		DC3FACFA2170A34200CF661F /* HCl+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "HCl+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACFB2170A34200CF661F /* NH3_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH3_pi.txt; sourceTree = "<group>"; };
+		DC3FACFC2170A34200CF661F /* CH4+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CH4+_pd.txt"; sourceTree = "<group>"; };
+		DC3FACFD2170A34200CF661F /* C2_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2_pi_old.txt; sourceTree = "<group>"; };
+		DC3FACFE2170A34200CF661F /* C3_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C3_pi.txt; sourceTree = "<group>"; };
+		DC3FACFF2170A34200CF661F /* OCS_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OCS_pi.txt; sourceTree = "<group>"; };
+		DC3FAD002170A34200CF661F /* NO_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NO_pd.txt; sourceTree = "<group>"; };
+		DC3FAD012170A34200CF661F /* threshold_dissociation_ionization_2.gnu */ = {isa = PBXFileReference; lastKnownFileType = text; path = threshold_dissociation_ionization_2.gnu; sourceTree = "<group>"; };
+		DC3FAD022170A34200CF661F /* C2H_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2H_pd.txt; sourceTree = "<group>"; };
+		DC3FAD032170A34200CF661F /* SH_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SH_pi.txt; sourceTree = "<group>"; };
+		DC3FAD042170A34200CF661F /* S_pi_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = S_pi_old.txt; sourceTree = "<group>"; };
+		DC3FAD052170A34200CF661F /* CH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH_pd.txt; sourceTree = "<group>"; };
+		DC3FAD062170A34200CF661F /* c-C3H_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "c-C3H_pd.txt"; sourceTree = "<group>"; };
+		DC3FAD072170A34200CF661F /* HCN_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCN_pd.txt; sourceTree = "<group>"; };
+		DC3FAD082170A34200CF661F /* S2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = S2_pi.txt; sourceTree = "<group>"; };
+		DC3FAD092170A34200CF661F /* C2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2_pd.txt; sourceTree = "<group>"; };
+		DC3FAD0A2170A34200CF661F /* H_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H_pi.txt; sourceTree = "<group>"; };
+		DC3FAD0B2170A34200CF661F /* HC3H_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HC3H_pd.txt; sourceTree = "<group>"; };
+		DC3FAD0C2170A34200CF661F /* HCO+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "HCO+_pd.txt"; sourceTree = "<group>"; };
+		DC3FAD0D2170A34200CF661F /* O2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = O2_pi.txt; sourceTree = "<group>"; };
+		DC3FAD0E2170A34200CF661F /* CH4_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH4_pd.txt; sourceTree = "<group>"; };
+		DC3FAD0F2170A34200CF661F /* CH3OH_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH3OH_pd.txt; sourceTree = "<group>"; };
+		DC3FAD102170A34200CF661F /* CH_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH_pd_old.txt; sourceTree = "<group>"; };
+		DC3FAD112170A34200CF661F /* C2H2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C2H2_pi.txt; sourceTree = "<group>"; };
+		DC3FAD122170A34200CF661F /* H2CO_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2CO_pd.txt; sourceTree = "<group>"; };
+		DC3FAD132170A34200CF661F /* l-C3H_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "l-C3H_pd.txt"; sourceTree = "<group>"; };
+		DC3FAD142170A34200CF661F /* C3_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = C3_pd_old.txt; sourceTree = "<group>"; };
+		DC3FAD152170A34200CF661F /* N2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = N2_pi.txt; sourceTree = "<group>"; };
+		DC3FAD162170A34200CF661F /* SH+_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SH+_pd.txt"; sourceTree = "<group>"; };
+		DC3FAD172170A34200CF661F /* CH3_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CH3_pi.txt; sourceTree = "<group>"; };
+		DC3FAD182170A34200CF661F /* CS_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CS_pi.txt; sourceTree = "<group>"; };
+		DC3FAD192170A34200CF661F /* CN_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CN_pd.txt; sourceTree = "<group>"; };
+		DC3FAD1A2170A34200CF661F /* SO2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SO2_pd.txt; sourceTree = "<group>"; };
+		DC3FAD1B2170A34200CF661F /* CO2_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CO2_pi.txt; sourceTree = "<group>"; };
+		DC3FAD1C2170A34200CF661F /* OH_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OH_pd_old.txt; sourceTree = "<group>"; };
+		DC3FAD1D2170A34200CF661F /* SiO_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SiO_pd.txt; sourceTree = "<group>"; };
+		DC3FAD1E2170A34200CF661F /* HCl_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = HCl_pd.txt; sourceTree = "<group>"; };
+		DC3FAD1F2170A34200CF661F /* NH2_pd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = NH2_pd.txt; sourceTree = "<group>"; };
+		DC3FAD202170A34200CF661F /* H2S_pi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2S_pi.txt; sourceTree = "<group>"; };
+		DC3FAD212170A34200CF661F /* H2O_pd_old.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2O_pd_old.txt; sourceTree = "<group>"; };
+		DC3FAD222170A38E00CF661F /* drive.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = drive.f90; sourceTree = "<group>"; };
+		DC503DB51D547F0700B7A071 /* meta_standard.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = meta_standard.dat; sourceTree = "<group>"; };
+		DC56D83121357F5200C114AF /* switch_cj.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; name = switch_cj.f90; path = src/switch_cj.f90; sourceTree = SOURCE_ROOT; };
+		DC62448E1E97E2EE0068D21A /* refh2.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = refh2.f90; sourceTree = "<group>"; };
+		DC62448F1E97E31B0068D21A /* mhd_vode.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mhd_vode.sh; sourceTree = "<group>"; };
+		DC6244901E97E36B0068D21A /* shield.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = shield.f90; sourceTree = "<group>"; };
+		DC6244911E97E6BB0068D21A /* shield_CO.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = shield_CO.dat; sourceTree = "<group>"; };
+		DC6244921E97E6BB0068D21A /* shield_H2.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = shield_H2.dat; sourceTree = "<group>"; };
+		DC7265731D5CA97700F63C5B /* heating_rates.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = heating_rates.f90; sourceTree = "<group>"; };
+		DC84143A1C73516E006A0C72 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DC84143C1C7351E3006A0C72 /* Aij_H2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Aij_H2.in; sourceTree = "<group>"; };
+		DC84143D1C7351E3006A0C72 /* Aval_Fe */ = {isa = PBXFileReference; lastKnownFileType = text; path = Aval_Fe; sourceTree = "<group>"; };
+		DC84143E1C7351E3006A0C72 /* chemistry.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = chemistry.in; sourceTree = "<group>"; };
+		DC84143F1C7351E3006A0C72 /* coeff_GR_H2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_GR_H2.in; sourceTree = "<group>"; };
+		DC8414401C7351E3006A0C72 /* coeff_H2_H2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_H2_H2.in; sourceTree = "<group>"; };
+		DC8414411C7351E3006A0C72 /* coeff_H_H2_DRF.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_H_H2_DRF.in; sourceTree = "<group>"; };
+		DC8414421C7351E3006A0C72 /* coeff_H_H2_MM.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_H_H2_MM.in; sourceTree = "<group>"; };
+		DC8414431C7351E3006A0C72 /* coeff_He_H2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_He_H2.in; sourceTree = "<group>"; };
+		DC8414441C7351E3006A0C72 /* coeff_SiO.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = coeff_SiO.in; sourceTree = "<group>"; };
+		DC8414451C7351E3006A0C72 /* gamma_eFe */ = {isa = PBXFileReference; lastKnownFileType = text; path = gamma_eFe; sourceTree = "<group>"; };
+		DC8414461C7351E3006A0C72 /* H2_levels_Evj.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = H2_levels_Evj.in; sourceTree = "<group>"; };
+		DC8414471C7351E3006A0C72 /* input_mhd.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_mhd.in; sourceTree = "<group>"; };
+		DC8414481C7351E3006A0C72 /* OH2GR.DAT */ = {isa = PBXFileReference; lastKnownFileType = text; path = OH2GR.DAT; sourceTree = "<group>"; };
+		DC8414491C7351E3006A0C72 /* PH2GR.DAT */ = {isa = PBXFileReference; lastKnownFileType = text; path = PH2GR.DAT; sourceTree = "<group>"; };
+		DC84144A1C7351E3006A0C72 /* species.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = species.in; sourceTree = "<group>"; };
+		DC84160E1C7351E5006A0C72 /* caxpy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = caxpy.f; sourceTree = "<group>"; };
+		DC84160F1C7351E5006A0C72 /* ccopy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ccopy.f; sourceTree = "<group>"; };
+		DC8416101C7351E5006A0C72 /* cdotc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cdotc.f; sourceTree = "<group>"; };
+		DC8416111C7351E5006A0C72 /* cdotu.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cdotu.f; sourceTree = "<group>"; };
+		DC8416121C7351E5006A0C72 /* cgbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cgbmv.f; sourceTree = "<group>"; };
+		DC8416131C7351E5006A0C72 /* cgemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cgemm.f; sourceTree = "<group>"; };
+		DC8416141C7351E5006A0C72 /* cgemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cgemv.f; sourceTree = "<group>"; };
+		DC8416151C7351E5006A0C72 /* cgerc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cgerc.f; sourceTree = "<group>"; };
+		DC8416161C7351E5006A0C72 /* cgeru.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cgeru.f; sourceTree = "<group>"; };
+		DC8416171C7351E5006A0C72 /* chbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chbmv.f; sourceTree = "<group>"; };
+		DC8416181C7351E5006A0C72 /* chemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chemm.f; sourceTree = "<group>"; };
+		DC8416191C7351E5006A0C72 /* chemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chemv.f; sourceTree = "<group>"; };
+		DC84161A1C7351E5006A0C72 /* cher.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cher.f; sourceTree = "<group>"; };
+		DC84161B1C7351E5006A0C72 /* cher2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cher2.f; sourceTree = "<group>"; };
+		DC84161C1C7351E5006A0C72 /* cher2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cher2k.f; sourceTree = "<group>"; };
+		DC84161D1C7351E5006A0C72 /* cherk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cherk.f; sourceTree = "<group>"; };
+		DC84161E1C7351E5006A0C72 /* chpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chpmv.f; sourceTree = "<group>"; };
+		DC84161F1C7351E5006A0C72 /* chpr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chpr.f; sourceTree = "<group>"; };
+		DC8416201C7351E5006A0C72 /* chpr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = chpr2.f; sourceTree = "<group>"; };
+		DC8416211C7351E5006A0C72 /* crotg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = crotg.f; sourceTree = "<group>"; };
+		DC8416221C7351E5006A0C72 /* cscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cscal.f; sourceTree = "<group>"; };
+		DC8416231C7351E5006A0C72 /* csrot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = csrot.f; sourceTree = "<group>"; };
+		DC8416241C7351E5006A0C72 /* csscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = csscal.f; sourceTree = "<group>"; };
+		DC8416251C7351E5006A0C72 /* cswap.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = cswap.f; sourceTree = "<group>"; };
+		DC8416261C7351E5006A0C72 /* csymm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = csymm.f; sourceTree = "<group>"; };
+		DC8416271C7351E5006A0C72 /* csyr2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = csyr2k.f; sourceTree = "<group>"; };
+		DC8416281C7351E5006A0C72 /* csyrk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = csyrk.f; sourceTree = "<group>"; };
+		DC8416291C7351E5006A0C72 /* ctbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctbmv.f; sourceTree = "<group>"; };
+		DC84162A1C7351E5006A0C72 /* ctbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctbsv.f; sourceTree = "<group>"; };
+		DC84162B1C7351E5006A0C72 /* ctpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctpmv.f; sourceTree = "<group>"; };
+		DC84162C1C7351E5006A0C72 /* ctpsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctpsv.f; sourceTree = "<group>"; };
+		DC84162D1C7351E5006A0C72 /* ctrmm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctrmm.f; sourceTree = "<group>"; };
+		DC84162E1C7351E5006A0C72 /* ctrmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctrmv.f; sourceTree = "<group>"; };
+		DC84162F1C7351E5006A0C72 /* ctrsm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctrsm.f; sourceTree = "<group>"; };
+		DC8416301C7351E5006A0C72 /* ctrsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ctrsv.f; sourceTree = "<group>"; };
+		DC8416311C7351E5006A0C72 /* dasum.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dasum.f; sourceTree = "<group>"; };
+		DC8416321C7351E5006A0C72 /* daxpy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = daxpy.f; sourceTree = "<group>"; };
+		DC8416331C7351E5006A0C72 /* dbdsdc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dbdsdc.f; sourceTree = "<group>"; };
+		DC8416341C7351E5006A0C72 /* dbdsqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dbdsqr.f; sourceTree = "<group>"; };
+		DC8416351C7351E5006A0C72 /* dcabs1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dcabs1.f; sourceTree = "<group>"; };
+		DC8416361C7351E5006A0C72 /* dcopy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dcopy.f; sourceTree = "<group>"; };
+		DC8416371C7351E5006A0C72 /* ddisna.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ddisna.f; sourceTree = "<group>"; };
+		DC8416381C7351E5006A0C72 /* ddot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ddot.f; sourceTree = "<group>"; };
+		DC8416391C7351E5006A0C72 /* dgbbrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbbrd.f; sourceTree = "<group>"; };
+		DC84163A1C7351E5006A0C72 /* dgbcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbcon.f; sourceTree = "<group>"; };
+		DC84163B1C7351E5006A0C72 /* dgbequ.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbequ.f; sourceTree = "<group>"; };
+		DC84163C1C7351E5006A0C72 /* dgbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbmv.f; sourceTree = "<group>"; };
+		DC84163D1C7351E5006A0C72 /* dgbrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbrfs.f; sourceTree = "<group>"; };
+		DC84163E1C7351E5006A0C72 /* dgbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbsv.f; sourceTree = "<group>"; };
+		DC84163F1C7351E5006A0C72 /* dgbsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbsvx.f; sourceTree = "<group>"; };
+		DC8416401C7351E5006A0C72 /* dgbtf2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbtf2.f; sourceTree = "<group>"; };
+		DC8416411C7351E5006A0C72 /* dgbtrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbtrf.f; sourceTree = "<group>"; };
+		DC8416421C7351E5006A0C72 /* dgbtrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgbtrs.f; sourceTree = "<group>"; };
+		DC8416431C7351E5006A0C72 /* dgebak.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgebak.f; sourceTree = "<group>"; };
+		DC8416441C7351E5006A0C72 /* dgebal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgebal.f; sourceTree = "<group>"; };
+		DC8416451C7351E5006A0C72 /* dgebd2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgebd2.f; sourceTree = "<group>"; };
+		DC8416461C7351E5006A0C72 /* dgebrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgebrd.f; sourceTree = "<group>"; };
+		DC8416471C7351E5006A0C72 /* dgecon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgecon.f; sourceTree = "<group>"; };
+		DC8416481C7351E5006A0C72 /* dgeequ.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeequ.f; sourceTree = "<group>"; };
+		DC8416491C7351E5006A0C72 /* dgees.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgees.f; sourceTree = "<group>"; };
+		DC84164A1C7351E5006A0C72 /* dgeesx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeesx.f; sourceTree = "<group>"; };
+		DC84164B1C7351E5006A0C72 /* dgeev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeev.f; sourceTree = "<group>"; };
+		DC84164C1C7351E5006A0C72 /* dgeevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeevx.f; sourceTree = "<group>"; };
+		DC84164D1C7351E5006A0C72 /* dgegs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgegs.f; sourceTree = "<group>"; };
+		DC84164E1C7351E5006A0C72 /* dgegv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgegv.f; sourceTree = "<group>"; };
+		DC84164F1C7351E5006A0C72 /* dgehd2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgehd2.f; sourceTree = "<group>"; };
+		DC8416501C7351E5006A0C72 /* dgehrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgehrd.f; sourceTree = "<group>"; };
+		DC8416511C7351E5006A0C72 /* dgelq2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelq2.f; sourceTree = "<group>"; };
+		DC8416521C7351E5006A0C72 /* dgelqf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelqf.f; sourceTree = "<group>"; };
+		DC8416531C7351E5006A0C72 /* dgels.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgels.f; sourceTree = "<group>"; };
+		DC8416541C7351E5006A0C72 /* dgelsd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelsd.f; sourceTree = "<group>"; };
+		DC8416551C7351E5006A0C72 /* dgelss.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelss.f; sourceTree = "<group>"; };
+		DC8416561C7351E5006A0C72 /* dgelsx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelsx.f; sourceTree = "<group>"; };
+		DC8416571C7351E5006A0C72 /* dgelsy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgelsy.f; sourceTree = "<group>"; };
+		DC8416581C7351E5006A0C72 /* dgemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgemm.f; sourceTree = "<group>"; };
+		DC8416591C7351E5006A0C72 /* dgemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgemv.f; sourceTree = "<group>"; };
+		DC84165A1C7351E5006A0C72 /* dgeql2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeql2.f; sourceTree = "<group>"; };
+		DC84165B1C7351E5006A0C72 /* dgeqlf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeqlf.f; sourceTree = "<group>"; };
+		DC84165C1C7351E5006A0C72 /* dgeqp3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeqp3.f; sourceTree = "<group>"; };
+		DC84165D1C7351E5006A0C72 /* dgeqpf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeqpf.f; sourceTree = "<group>"; };
+		DC84165E1C7351E5006A0C72 /* dgeqr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeqr2.f; sourceTree = "<group>"; };
+		DC84165F1C7351E5006A0C72 /* dgeqrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgeqrf.f; sourceTree = "<group>"; };
+		DC8416601C7351E5006A0C72 /* dger.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dger.f; sourceTree = "<group>"; };
+		DC8416611C7351E5006A0C72 /* dgerfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgerfs.f; sourceTree = "<group>"; };
+		DC8416621C7351E5006A0C72 /* dgerq2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgerq2.f; sourceTree = "<group>"; };
+		DC8416631C7351E5006A0C72 /* dgerqf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgerqf.f; sourceTree = "<group>"; };
+		DC8416641C7351E5006A0C72 /* dgesc2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgesc2.f; sourceTree = "<group>"; };
+		DC8416651C7351E5006A0C72 /* dgesdd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgesdd.f; sourceTree = "<group>"; };
+		DC8416661C7351E5006A0C72 /* dgesv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgesv.f; sourceTree = "<group>"; };
+		DC8416671C7351E5006A0C72 /* dgesvd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgesvd.f; sourceTree = "<group>"; };
+		DC8416681C7351E5006A0C72 /* dgesvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgesvx.f; sourceTree = "<group>"; };
+		DC8416691C7351E5006A0C72 /* dgetc2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgetc2.f; sourceTree = "<group>"; };
+		DC84166A1C7351E5006A0C72 /* dgetf2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgetf2.f; sourceTree = "<group>"; };
+		DC84166B1C7351E5006A0C72 /* dgetrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgetrf.f; sourceTree = "<group>"; };
+		DC84166C1C7351E5006A0C72 /* dgetri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgetri.f; sourceTree = "<group>"; };
+		DC84166D1C7351E5006A0C72 /* dgetrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgetrs.f; sourceTree = "<group>"; };
+		DC84166E1C7351E5006A0C72 /* dggbak.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggbak.f; sourceTree = "<group>"; };
+		DC84166F1C7351E5006A0C72 /* dggbal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggbal.f; sourceTree = "<group>"; };
+		DC8416701C7351E5006A0C72 /* dgges.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgges.f; sourceTree = "<group>"; };
+		DC8416711C7351E5006A0C72 /* dggesx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggesx.f; sourceTree = "<group>"; };
+		DC8416721C7351E5006A0C72 /* dggev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggev.f; sourceTree = "<group>"; };
+		DC8416731C7351E5006A0C72 /* dggevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggevx.f; sourceTree = "<group>"; };
+		DC8416741C7351E5006A0C72 /* dggglm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggglm.f; sourceTree = "<group>"; };
+		DC8416751C7351E5006A0C72 /* dgghrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgghrd.f; sourceTree = "<group>"; };
+		DC8416761C7351E5006A0C72 /* dgglse.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgglse.f; sourceTree = "<group>"; };
+		DC8416771C7351E5006A0C72 /* dggqrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggqrf.f; sourceTree = "<group>"; };
+		DC8416781C7351E5006A0C72 /* dggrqf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggrqf.f; sourceTree = "<group>"; };
+		DC8416791C7351E5006A0C72 /* dggsvd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggsvd.f; sourceTree = "<group>"; };
+		DC84167A1C7351E5006A0C72 /* dggsvp.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dggsvp.f; sourceTree = "<group>"; };
+		DC84167B1C7351E5006A0C72 /* dgtcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgtcon.f; sourceTree = "<group>"; };
+		DC84167C1C7351E5006A0C72 /* dgtrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgtrfs.f; sourceTree = "<group>"; };
+		DC84167D1C7351E5006A0C72 /* dgtsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgtsv.f; sourceTree = "<group>"; };
+		DC84167E1C7351E5006A0C72 /* dgtsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgtsvx.f; sourceTree = "<group>"; };
+		DC84167F1C7351E5006A0C72 /* dgttrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgttrf.f; sourceTree = "<group>"; };
+		DC8416801C7351E5006A0C72 /* dgttrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgttrs.f; sourceTree = "<group>"; };
+		DC8416811C7351E5006A0C72 /* dgtts2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dgtts2.f; sourceTree = "<group>"; };
+		DC8416821C7351E5006A0C72 /* dhgeqz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dhgeqz.f; sourceTree = "<group>"; };
+		DC8416831C7351E5006A0C72 /* dhsein.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dhsein.f; sourceTree = "<group>"; };
+		DC8416841C7351E5006A0C72 /* dhseqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dhseqr.f; sourceTree = "<group>"; };
+		DC8416851C7351E5006A0C72 /* disnan.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = disnan.f; sourceTree = "<group>"; };
+		DC8416861C7351E5006A0C72 /* dlabad.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlabad.f; sourceTree = "<group>"; };
+		DC8416871C7351E5006A0C72 /* dlabrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlabrd.f; sourceTree = "<group>"; };
+		DC8416881C7351E5006A0C72 /* dlacn2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlacn2.f; sourceTree = "<group>"; };
+		DC8416891C7351E5006A0C72 /* dlacon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlacon.f; sourceTree = "<group>"; };
+		DC84168A1C7351E5006A0C72 /* dlacpy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlacpy.f; sourceTree = "<group>"; };
+		DC84168B1C7351E5006A0C72 /* dladiv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dladiv.f; sourceTree = "<group>"; };
+		DC84168C1C7351E5006A0C72 /* dlae2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlae2.f; sourceTree = "<group>"; };
+		DC84168D1C7351E5006A0C72 /* dlaebz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaebz.f; sourceTree = "<group>"; };
+		DC84168E1C7351E5006A0C72 /* dlaed0.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed0.f; sourceTree = "<group>"; };
+		DC84168F1C7351E5006A0C72 /* dlaed1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed1.f; sourceTree = "<group>"; };
+		DC8416901C7351E5006A0C72 /* dlaed2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed2.f; sourceTree = "<group>"; };
+		DC8416911C7351E5006A0C72 /* dlaed3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed3.f; sourceTree = "<group>"; };
+		DC8416921C7351E5006A0C72 /* dlaed4.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed4.f; sourceTree = "<group>"; };
+		DC8416931C7351E5006A0C72 /* dlaed5.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed5.f; sourceTree = "<group>"; };
+		DC8416941C7351E5006A0C72 /* dlaed6.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed6.f; sourceTree = "<group>"; };
+		DC8416951C7351E5006A0C72 /* dlaed7.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed7.f; sourceTree = "<group>"; };
+		DC8416961C7351E5006A0C72 /* dlaed8.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed8.f; sourceTree = "<group>"; };
+		DC8416971C7351E5006A0C72 /* dlaed9.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaed9.f; sourceTree = "<group>"; };
+		DC8416981C7351E5006A0C72 /* dlaeda.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaeda.f; sourceTree = "<group>"; };
+		DC8416991C7351E5006A0C72 /* dlaein.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaein.f; sourceTree = "<group>"; };
+		DC84169A1C7351E5006A0C72 /* dlaev2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaev2.f; sourceTree = "<group>"; };
+		DC84169B1C7351E5006A0C72 /* dlaexc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaexc.f; sourceTree = "<group>"; };
+		DC84169C1C7351E5006A0C72 /* dlag2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlag2.f; sourceTree = "<group>"; };
+		DC84169D1C7351E5006A0C72 /* dlag2s.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlag2s.f; sourceTree = "<group>"; };
+		DC84169E1C7351E5006A0C72 /* dlags2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlags2.f; sourceTree = "<group>"; };
+		DC84169F1C7351E5006A0C72 /* dlagtf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlagtf.f; sourceTree = "<group>"; };
+		DC8416A01C7351E5006A0C72 /* dlagtm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlagtm.f; sourceTree = "<group>"; };
+		DC8416A11C7351E5006A0C72 /* dlagts.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlagts.f; sourceTree = "<group>"; };
+		DC8416A21C7351E5006A0C72 /* dlagv2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlagv2.f; sourceTree = "<group>"; };
+		DC8416A31C7351E5006A0C72 /* dlahqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlahqr.f; sourceTree = "<group>"; };
+		DC8416A41C7351E5006A0C72 /* dlahr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlahr2.f; sourceTree = "<group>"; };
+		DC8416A51C7351E5006A0C72 /* dlahrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlahrd.f; sourceTree = "<group>"; };
+		DC8416A61C7351E5006A0C72 /* dlaic1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaic1.f; sourceTree = "<group>"; };
+		DC8416A71C7351E5006A0C72 /* dlaisnan.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaisnan.f; sourceTree = "<group>"; };
+		DC8416A81C7351E5006A0C72 /* dlaln2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaln2.f; sourceTree = "<group>"; };
+		DC8416A91C7351E5006A0C72 /* dlals0.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlals0.f; sourceTree = "<group>"; };
+		DC8416AA1C7351E5006A0C72 /* dlalsa.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlalsa.f; sourceTree = "<group>"; };
+		DC8416AB1C7351E5006A0C72 /* dlalsd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlalsd.f; sourceTree = "<group>"; };
+		DC8416AC1C7351E5006A0C72 /* dlamch.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlamch.f; sourceTree = "<group>"; };
+		DC8416AD1C7351E5006A0C72 /* dlamrg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlamrg.f; sourceTree = "<group>"; };
+		DC8416AE1C7351E5006A0C72 /* dlaneg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaneg.f; sourceTree = "<group>"; };
+		DC8416AF1C7351E5006A0C72 /* dlangb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlangb.f; sourceTree = "<group>"; };
+		DC8416B01C7351E5006A0C72 /* dlange.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlange.f; sourceTree = "<group>"; };
+		DC8416B11C7351E5006A0C72 /* dlangt.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlangt.f; sourceTree = "<group>"; };
+		DC8416B21C7351E5006A0C72 /* dlanhs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlanhs.f; sourceTree = "<group>"; };
+		DC8416B31C7351E5006A0C72 /* dlansb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlansb.f; sourceTree = "<group>"; };
+		DC8416B41C7351E5006A0C72 /* dlansp.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlansp.f; sourceTree = "<group>"; };
+		DC8416B51C7351E5006A0C72 /* dlanst.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlanst.f; sourceTree = "<group>"; };
+		DC8416B61C7351E5006A0C72 /* dlansy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlansy.f; sourceTree = "<group>"; };
+		DC8416B71C7351E5006A0C72 /* dlantb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlantb.f; sourceTree = "<group>"; };
+		DC8416B81C7351E5006A0C72 /* dlantp.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlantp.f; sourceTree = "<group>"; };
+		DC8416B91C7351E5006A0C72 /* dlantr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlantr.f; sourceTree = "<group>"; };
+		DC8416BA1C7351E5006A0C72 /* dlanv2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlanv2.f; sourceTree = "<group>"; };
+		DC8416BB1C7351E5006A0C72 /* dlapll.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlapll.f; sourceTree = "<group>"; };
+		DC8416BC1C7351E5006A0C72 /* dlapmt.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlapmt.f; sourceTree = "<group>"; };
+		DC8416BD1C7351E5006A0C72 /* dlapy2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlapy2.f; sourceTree = "<group>"; };
+		DC8416BE1C7351E5006A0C72 /* dlapy3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlapy3.f; sourceTree = "<group>"; };
+		DC8416BF1C7351E5006A0C72 /* dlaqgb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqgb.f; sourceTree = "<group>"; };
+		DC8416C01C7351E5006A0C72 /* dlaqge.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqge.f; sourceTree = "<group>"; };
+		DC8416C11C7351E5006A0C72 /* dlaqp2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqp2.f; sourceTree = "<group>"; };
+		DC8416C21C7351E5006A0C72 /* dlaqps.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqps.f; sourceTree = "<group>"; };
+		DC8416C31C7351E5006A0C72 /* dlaqr0.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr0.f; sourceTree = "<group>"; };
+		DC8416C41C7351E5006A0C72 /* dlaqr1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr1.f; sourceTree = "<group>"; };
+		DC8416C51C7351E5006A0C72 /* dlaqr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr2.f; sourceTree = "<group>"; };
+		DC8416C61C7351E5006A0C72 /* dlaqr3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr3.f; sourceTree = "<group>"; };
+		DC8416C71C7351E5006A0C72 /* dlaqr4.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr4.f; sourceTree = "<group>"; };
+		DC8416C81C7351E5006A0C72 /* dlaqr5.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqr5.f; sourceTree = "<group>"; };
+		DC8416C91C7351E5006A0C72 /* dlaqsb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqsb.f; sourceTree = "<group>"; };
+		DC8416CA1C7351E5006A0C72 /* dlaqsp.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqsp.f; sourceTree = "<group>"; };
+		DC8416CB1C7351E5006A0C72 /* dlaqsy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqsy.f; sourceTree = "<group>"; };
+		DC8416CC1C7351E5006A0C72 /* dlaqtr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaqtr.f; sourceTree = "<group>"; };
+		DC8416CD1C7351E5006A0C72 /* dlar1v.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlar1v.f; sourceTree = "<group>"; };
+		DC8416CE1C7351E5006A0C72 /* dlar2v.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlar2v.f; sourceTree = "<group>"; };
+		DC8416CF1C7351E5006A0C72 /* dlarf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarf.f; sourceTree = "<group>"; };
+		DC8416D01C7351E5006A0C72 /* dlarfb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarfb.f; sourceTree = "<group>"; };
+		DC8416D11C7351E5006A0C72 /* dlarfg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarfg.f; sourceTree = "<group>"; };
+		DC8416D21C7351E5006A0C72 /* dlarft.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarft.f; sourceTree = "<group>"; };
+		DC8416D31C7351E5006A0C72 /* dlarfx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarfx.f; sourceTree = "<group>"; };
+		DC8416D41C7351E5006A0C72 /* dlargv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlargv.f; sourceTree = "<group>"; };
+		DC8416D51C7351E5006A0C72 /* dlarnv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarnv.f; sourceTree = "<group>"; };
+		DC8416D61C7351E5006A0C72 /* dlarra.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarra.f; sourceTree = "<group>"; };
+		DC8416D71C7351E5006A0C72 /* dlarrb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrb.f; sourceTree = "<group>"; };
+		DC8416D81C7351E5006A0C72 /* dlarrc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrc.f; sourceTree = "<group>"; };
+		DC8416D91C7351E5006A0C72 /* dlarrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrd.f; sourceTree = "<group>"; };
+		DC8416DA1C7351E5006A0C72 /* dlarre.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarre.f; sourceTree = "<group>"; };
+		DC8416DB1C7351E5006A0C72 /* dlarrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrf.f; sourceTree = "<group>"; };
+		DC8416DC1C7351E5006A0C72 /* dlarrj.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrj.f; sourceTree = "<group>"; };
+		DC8416DD1C7351E5006A0C72 /* dlarrk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrk.f; sourceTree = "<group>"; };
+		DC8416DE1C7351E5006A0C72 /* dlarrr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrr.f; sourceTree = "<group>"; };
+		DC8416DF1C7351E5006A0C72 /* dlarrv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarrv.f; sourceTree = "<group>"; };
+		DC8416E01C7351E5006A0C72 /* dlartg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlartg.f; sourceTree = "<group>"; };
+		DC8416E11C7351E5006A0C72 /* dlartv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlartv.f; sourceTree = "<group>"; };
+		DC8416E21C7351E5006A0C72 /* dlaruv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaruv.f; sourceTree = "<group>"; };
+		DC8416E31C7351E5006A0C72 /* dlarz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarz.f; sourceTree = "<group>"; };
+		DC8416E41C7351E5006A0C72 /* dlarzb.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarzb.f; sourceTree = "<group>"; };
+		DC8416E51C7351E5006A0C72 /* dlarzt.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlarzt.f; sourceTree = "<group>"; };
+		DC8416E61C7351E5006A0C72 /* dlas2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlas2.f; sourceTree = "<group>"; };
+		DC8416E71C7351E5006A0C72 /* dlascl.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlascl.f; sourceTree = "<group>"; };
+		DC8416E81C7351E5006A0C72 /* dlasd0.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd0.f; sourceTree = "<group>"; };
+		DC8416E91C7351E5006A0C72 /* dlasd1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd1.f; sourceTree = "<group>"; };
+		DC8416EA1C7351E5006A0C72 /* dlasd2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd2.f; sourceTree = "<group>"; };
+		DC8416EB1C7351E5006A0C72 /* dlasd3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd3.f; sourceTree = "<group>"; };
+		DC8416EC1C7351E5006A0C72 /* dlasd4.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd4.f; sourceTree = "<group>"; };
+		DC8416ED1C7351E5006A0C72 /* dlasd5.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd5.f; sourceTree = "<group>"; };
+		DC8416EE1C7351E5006A0C72 /* dlasd6.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd6.f; sourceTree = "<group>"; };
+		DC8416EF1C7351E5006A0C72 /* dlasd7.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd7.f; sourceTree = "<group>"; };
+		DC8416F01C7351E5006A0C72 /* dlasd8.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasd8.f; sourceTree = "<group>"; };
+		DC8416F11C7351E5006A0C72 /* dlasda.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasda.f; sourceTree = "<group>"; };
+		DC8416F21C7351E5006A0C72 /* dlasdq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasdq.f; sourceTree = "<group>"; };
+		DC8416F31C7351E5006A0C72 /* dlasdt.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasdt.f; sourceTree = "<group>"; };
+		DC8416F41C7351E5006A0C72 /* dlaset.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaset.f; sourceTree = "<group>"; };
+		DC8416F51C7351E5006A0C72 /* dlasq1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq1.f; sourceTree = "<group>"; };
+		DC8416F61C7351E5006A0C72 /* dlasq2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq2.f; sourceTree = "<group>"; };
+		DC8416F71C7351E5006A0C72 /* dlasq3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq3.f; sourceTree = "<group>"; };
+		DC8416F81C7351E5006A0C72 /* dlasq4.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq4.f; sourceTree = "<group>"; };
+		DC8416F91C7351E5006A0C72 /* dlasq5.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq5.f; sourceTree = "<group>"; };
+		DC8416FA1C7351E5006A0C72 /* dlasq6.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasq6.f; sourceTree = "<group>"; };
+		DC8416FB1C7351E5006A0C72 /* dlasr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasr.f; sourceTree = "<group>"; };
+		DC8416FC1C7351E5006A0C72 /* dlasrt.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasrt.f; sourceTree = "<group>"; };
+		DC8416FD1C7351E5006A0C72 /* dlassq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlassq.f; sourceTree = "<group>"; };
+		DC8416FE1C7351E5006A0C72 /* dlasv2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasv2.f; sourceTree = "<group>"; };
+		DC8416FF1C7351E5006A0C72 /* dlaswp.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlaswp.f; sourceTree = "<group>"; };
+		DC8417001C7351E5006A0C72 /* dlasy2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasy2.f; sourceTree = "<group>"; };
+		DC8417011C7351E5006A0C72 /* dlasyf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlasyf.f; sourceTree = "<group>"; };
+		DC8417021C7351E5006A0C72 /* dlatbs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatbs.f; sourceTree = "<group>"; };
+		DC8417031C7351E5006A0C72 /* dlatdf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatdf.f; sourceTree = "<group>"; };
+		DC8417041C7351E5006A0C72 /* dlatps.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatps.f; sourceTree = "<group>"; };
+		DC8417051C7351E5006A0C72 /* dlatrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatrd.f; sourceTree = "<group>"; };
+		DC8417061C7351E5006A0C72 /* dlatrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatrs.f; sourceTree = "<group>"; };
+		DC8417071C7351E5006A0C72 /* dlatrz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatrz.f; sourceTree = "<group>"; };
+		DC8417081C7351E5006A0C72 /* dlatzm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlatzm.f; sourceTree = "<group>"; };
+		DC8417091C7351E5006A0C72 /* dlauu2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlauu2.f; sourceTree = "<group>"; };
+		DC84170A1C7351E5006A0C72 /* dlauum.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlauum.f; sourceTree = "<group>"; };
+		DC84170B1C7351E5006A0C72 /* dlazq3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlazq3.f; sourceTree = "<group>"; };
+		DC84170C1C7351E5006A0C72 /* dlazq4.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dlazq4.f; sourceTree = "<group>"; };
+		DC84170D1C7351E5006A0C72 /* dnrm2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dnrm2.f; sourceTree = "<group>"; };
+		DC84170E1C7351E5006A0C72 /* dopgtr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dopgtr.f; sourceTree = "<group>"; };
+		DC84170F1C7351E5006A0C72 /* dopmtr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dopmtr.f; sourceTree = "<group>"; };
+		DC8417101C7351E5006A0C72 /* dorg2l.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorg2l.f; sourceTree = "<group>"; };
+		DC8417111C7351E5006A0C72 /* dorg2r.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorg2r.f; sourceTree = "<group>"; };
+		DC8417121C7351E5006A0C72 /* dorgbr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgbr.f; sourceTree = "<group>"; };
+		DC8417131C7351E5006A0C72 /* dorghr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorghr.f; sourceTree = "<group>"; };
+		DC8417141C7351E5006A0C72 /* dorgl2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgl2.f; sourceTree = "<group>"; };
+		DC8417151C7351E5006A0C72 /* dorglq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorglq.f; sourceTree = "<group>"; };
+		DC8417161C7351E5006A0C72 /* dorgql.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgql.f; sourceTree = "<group>"; };
+		DC8417171C7351E5006A0C72 /* dorgqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgqr.f; sourceTree = "<group>"; };
+		DC8417181C7351E5006A0C72 /* dorgr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgr2.f; sourceTree = "<group>"; };
+		DC8417191C7351E5006A0C72 /* dorgrq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgrq.f; sourceTree = "<group>"; };
+		DC84171A1C7351E5006A0C72 /* dorgtr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorgtr.f; sourceTree = "<group>"; };
+		DC84171B1C7351E5006A0C72 /* dorm2l.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorm2l.f; sourceTree = "<group>"; };
+		DC84171C1C7351E5006A0C72 /* dorm2r.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorm2r.f; sourceTree = "<group>"; };
+		DC84171D1C7351E5006A0C72 /* dormbr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormbr.f; sourceTree = "<group>"; };
+		DC84171E1C7351E5006A0C72 /* dormhr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormhr.f; sourceTree = "<group>"; };
+		DC84171F1C7351E5006A0C72 /* dorml2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dorml2.f; sourceTree = "<group>"; };
+		DC8417201C7351E5006A0C72 /* dormlq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormlq.f; sourceTree = "<group>"; };
+		DC8417211C7351E5006A0C72 /* dormql.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormql.f; sourceTree = "<group>"; };
+		DC8417221C7351E5006A0C72 /* dormqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormqr.f; sourceTree = "<group>"; };
+		DC8417231C7351E5006A0C72 /* dormr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormr2.f; sourceTree = "<group>"; };
+		DC8417241C7351E5006A0C72 /* dormr3.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormr3.f; sourceTree = "<group>"; };
+		DC8417251C7351E5006A0C72 /* dormrq.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormrq.f; sourceTree = "<group>"; };
+		DC8417261C7351E5006A0C72 /* dormrz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormrz.f; sourceTree = "<group>"; };
+		DC8417271C7351E5006A0C72 /* dormtr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dormtr.f; sourceTree = "<group>"; };
+		DC8417281C7351E5006A0C72 /* dpbcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbcon.f; sourceTree = "<group>"; };
+		DC8417291C7351E5006A0C72 /* dpbequ.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbequ.f; sourceTree = "<group>"; };
+		DC84172A1C7351E5006A0C72 /* dpbrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbrfs.f; sourceTree = "<group>"; };
+		DC84172B1C7351E5006A0C72 /* dpbstf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbstf.f; sourceTree = "<group>"; };
+		DC84172C1C7351E5006A0C72 /* dpbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbsv.f; sourceTree = "<group>"; };
+		DC84172D1C7351E5006A0C72 /* dpbsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbsvx.f; sourceTree = "<group>"; };
+		DC84172E1C7351E5006A0C72 /* dpbtf2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbtf2.f; sourceTree = "<group>"; };
+		DC84172F1C7351E5006A0C72 /* dpbtrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbtrf.f; sourceTree = "<group>"; };
+		DC8417301C7351E5006A0C72 /* dpbtrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpbtrs.f; sourceTree = "<group>"; };
+		DC8417311C7351E5006A0C72 /* dpocon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpocon.f; sourceTree = "<group>"; };
+		DC8417321C7351E5006A0C72 /* dpoequ.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpoequ.f; sourceTree = "<group>"; };
+		DC8417331C7351E5006A0C72 /* dporfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dporfs.f; sourceTree = "<group>"; };
+		DC8417341C7351E5006A0C72 /* dposv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dposv.f; sourceTree = "<group>"; };
+		DC8417351C7351E5006A0C72 /* dposvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dposvx.f; sourceTree = "<group>"; };
+		DC8417361C7351E5006A0C72 /* dpotf2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpotf2.f; sourceTree = "<group>"; };
+		DC8417371C7351E5006A0C72 /* dpotrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpotrf.f; sourceTree = "<group>"; };
+		DC8417381C7351E5006A0C72 /* dpotri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpotri.f; sourceTree = "<group>"; };
+		DC8417391C7351E5006A0C72 /* dpotrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpotrs.f; sourceTree = "<group>"; };
+		DC84173A1C7351E5006A0C72 /* dppcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dppcon.f; sourceTree = "<group>"; };
+		DC84173B1C7351E5006A0C72 /* dppequ.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dppequ.f; sourceTree = "<group>"; };
+		DC84173C1C7351E5006A0C72 /* dpprfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpprfs.f; sourceTree = "<group>"; };
+		DC84173D1C7351E5006A0C72 /* dppsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dppsv.f; sourceTree = "<group>"; };
+		DC84173E1C7351E5006A0C72 /* dppsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dppsvx.f; sourceTree = "<group>"; };
+		DC84173F1C7351E5006A0C72 /* dpptrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpptrf.f; sourceTree = "<group>"; };
+		DC8417401C7351E5006A0C72 /* dpptri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpptri.f; sourceTree = "<group>"; };
+		DC8417411C7351E5006A0C72 /* dpptrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpptrs.f; sourceTree = "<group>"; };
+		DC8417421C7351E5006A0C72 /* dptcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dptcon.f; sourceTree = "<group>"; };
+		DC8417431C7351E5006A0C72 /* dpteqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpteqr.f; sourceTree = "<group>"; };
+		DC8417441C7351E5006A0C72 /* dptrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dptrfs.f; sourceTree = "<group>"; };
+		DC8417451C7351E5006A0C72 /* dptsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dptsv.f; sourceTree = "<group>"; };
+		DC8417461C7351E5006A0C72 /* dptsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dptsvx.f; sourceTree = "<group>"; };
+		DC8417471C7351E5006A0C72 /* dpttrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpttrf.f; sourceTree = "<group>"; };
+		DC8417481C7351E5006A0C72 /* dpttrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dpttrs.f; sourceTree = "<group>"; };
+		DC8417491C7351E5006A0C72 /* dptts2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dptts2.f; sourceTree = "<group>"; };
+		DC84174A1C7351E5006A0C72 /* drot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = drot.f; sourceTree = "<group>"; };
+		DC84174B1C7351E5006A0C72 /* drotg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = drotg.f; sourceTree = "<group>"; };
+		DC84174C1C7351E5006A0C72 /* drotm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = drotm.f; sourceTree = "<group>"; };
+		DC84174D1C7351E5006A0C72 /* drotmg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = drotmg.f; sourceTree = "<group>"; };
+		DC84174E1C7351E5006A0C72 /* drscl.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = drscl.f; sourceTree = "<group>"; };
+		DC84174F1C7351E5006A0C72 /* dsbev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbev.f; sourceTree = "<group>"; };
+		DC8417501C7351E5006A0C72 /* dsbevd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbevd.f; sourceTree = "<group>"; };
+		DC8417511C7351E5006A0C72 /* dsbevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbevx.f; sourceTree = "<group>"; };
+		DC8417521C7351E5006A0C72 /* dsbgst.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbgst.f; sourceTree = "<group>"; };
+		DC8417531C7351E5006A0C72 /* dsbgv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbgv.f; sourceTree = "<group>"; };
+		DC8417541C7351E5006A0C72 /* dsbgvd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbgvd.f; sourceTree = "<group>"; };
+		DC8417551C7351E5006A0C72 /* dsbgvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbgvx.f; sourceTree = "<group>"; };
+		DC8417561C7351E5006A0C72 /* dsbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbmv.f; sourceTree = "<group>"; };
+		DC8417571C7351E5006A0C72 /* dsbtrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsbtrd.f; sourceTree = "<group>"; };
+		DC8417581C7351E5006A0C72 /* dscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dscal.f; sourceTree = "<group>"; };
+		DC8417591C7351E5006A0C72 /* dsdot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsdot.f; sourceTree = "<group>"; };
+		DC84175A1C7351E5006A0C72 /* dsgesv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsgesv.f; sourceTree = "<group>"; };
+		DC84175B1C7351E5006A0C72 /* dspcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspcon.f; sourceTree = "<group>"; };
+		DC84175C1C7351E5006A0C72 /* dspev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspev.f; sourceTree = "<group>"; };
+		DC84175D1C7351E5006A0C72 /* dspevd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspevd.f; sourceTree = "<group>"; };
+		DC84175E1C7351E5006A0C72 /* dspevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspevx.f; sourceTree = "<group>"; };
+		DC84175F1C7351E5006A0C72 /* dspgst.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspgst.f; sourceTree = "<group>"; };
+		DC8417601C7351E5006A0C72 /* dspgv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspgv.f; sourceTree = "<group>"; };
+		DC8417611C7351E5006A0C72 /* dspgvd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspgvd.f; sourceTree = "<group>"; };
+		DC8417621C7351E5006A0C72 /* dspgvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspgvx.f; sourceTree = "<group>"; };
+		DC8417631C7351E5006A0C72 /* dspmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspmv.f; sourceTree = "<group>"; };
+		DC8417641C7351E5006A0C72 /* dspr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspr.f; sourceTree = "<group>"; };
+		DC8417651C7351E5006A0C72 /* dspr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspr2.f; sourceTree = "<group>"; };
+		DC8417661C7351E5006A0C72 /* dsprfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsprfs.f; sourceTree = "<group>"; };
+		DC8417671C7351E5006A0C72 /* dspsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspsv.f; sourceTree = "<group>"; };
+		DC8417681C7351E5006A0C72 /* dspsvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dspsvx.f; sourceTree = "<group>"; };
+		DC8417691C7351E5006A0C72 /* dsptrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsptrd.f; sourceTree = "<group>"; };
+		DC84176A1C7351E5006A0C72 /* dsptrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsptrf.f; sourceTree = "<group>"; };
+		DC84176B1C7351E5006A0C72 /* dsptri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsptri.f; sourceTree = "<group>"; };
+		DC84176C1C7351E5006A0C72 /* dsptrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsptrs.f; sourceTree = "<group>"; };
+		DC84176D1C7351E5006A0C72 /* dstebz.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstebz.f; sourceTree = "<group>"; };
+		DC84176E1C7351E5006A0C72 /* dstedc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstedc.f; sourceTree = "<group>"; };
+		DC84176F1C7351E5006A0C72 /* dstegr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstegr.f; sourceTree = "<group>"; };
+		DC8417701C7351E5006A0C72 /* dstein.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstein.f; sourceTree = "<group>"; };
+		DC8417711C7351E5006A0C72 /* dstemr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstemr.f; sourceTree = "<group>"; };
+		DC8417721C7351E5006A0C72 /* dsteqr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsteqr.f; sourceTree = "<group>"; };
+		DC8417731C7351E5006A0C72 /* dsterf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsterf.f; sourceTree = "<group>"; };
+		DC8417741C7351E5006A0C72 /* dstev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstev.f; sourceTree = "<group>"; };
+		DC8417751C7351E5006A0C72 /* dstevd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstevd.f; sourceTree = "<group>"; };
+		DC8417761C7351E5006A0C72 /* dstevr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstevr.f; sourceTree = "<group>"; };
+		DC8417771C7351E5006A0C72 /* dstevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dstevx.f; sourceTree = "<group>"; };
+		DC8417781C7351E5006A0C72 /* dswap.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dswap.f; sourceTree = "<group>"; };
+		DC8417791C7351E5006A0C72 /* dsycon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsycon.f; sourceTree = "<group>"; };
+		DC84177A1C7351E5006A0C72 /* dsyev.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyev.f; sourceTree = "<group>"; };
+		DC84177B1C7351E5006A0C72 /* dsyevd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyevd.f; sourceTree = "<group>"; };
+		DC84177C1C7351E5006A0C72 /* dsyevr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyevr.f; sourceTree = "<group>"; };
+		DC84177D1C7351E5006A0C72 /* dsyevx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyevx.f; sourceTree = "<group>"; };
+		DC84177E1C7351E5006A0C72 /* dsygs2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsygs2.f; sourceTree = "<group>"; };
+		DC84177F1C7351E5006A0C72 /* dsygst.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsygst.f; sourceTree = "<group>"; };
+		DC8417801C7351E5006A0C72 /* dsygv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsygv.f; sourceTree = "<group>"; };
+		DC8417811C7351E5006A0C72 /* dsygvd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsygvd.f; sourceTree = "<group>"; };
+		DC8417821C7351E5006A0C72 /* dsygvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsygvx.f; sourceTree = "<group>"; };
+		DC8417831C7351E5006A0C72 /* dsymm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsymm.f; sourceTree = "<group>"; };
+		DC8417841C7351E5006A0C72 /* dsymv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsymv.f; sourceTree = "<group>"; };
+		DC8417851C7351E5006A0C72 /* dsyr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyr.f; sourceTree = "<group>"; };
+		DC8417861C7351E5006A0C72 /* dsyr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyr2.f; sourceTree = "<group>"; };
+		DC8417871C7351E5006A0C72 /* dsyr2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyr2k.f; sourceTree = "<group>"; };
+		DC8417881C7351E5006A0C72 /* dsyrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyrfs.f; sourceTree = "<group>"; };
+		DC8417891C7351E5006A0C72 /* dsyrk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsyrk.f; sourceTree = "<group>"; };
+		DC84178A1C7351E5006A0C72 /* dsysv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsysv.f; sourceTree = "<group>"; };
+		DC84178B1C7351E5006A0C72 /* dsysvx.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsysvx.f; sourceTree = "<group>"; };
+		DC84178C1C7351E5006A0C72 /* dsytd2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytd2.f; sourceTree = "<group>"; };
+		DC84178D1C7351E5006A0C72 /* dsytf2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytf2.f; sourceTree = "<group>"; };
+		DC84178E1C7351E5006A0C72 /* dsytrd.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytrd.f; sourceTree = "<group>"; };
+		DC84178F1C7351E5006A0C72 /* dsytrf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytrf.f; sourceTree = "<group>"; };
+		DC8417901C7351E5006A0C72 /* dsytri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytri.f; sourceTree = "<group>"; };
+		DC8417911C7351E5006A0C72 /* dsytrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dsytrs.f; sourceTree = "<group>"; };
+		DC8417921C7351E5006A0C72 /* dtbcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtbcon.f; sourceTree = "<group>"; };
+		DC8417931C7351E5006A0C72 /* dtbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtbmv.f; sourceTree = "<group>"; };
+		DC8417941C7351E5006A0C72 /* dtbrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtbrfs.f; sourceTree = "<group>"; };
+		DC8417951C7351E5006A0C72 /* dtbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtbsv.f; sourceTree = "<group>"; };
+		DC8417961C7351E5006A0C72 /* dtbtrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtbtrs.f; sourceTree = "<group>"; };
+		DC8417971C7351E5006A0C72 /* dtgevc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgevc.f; sourceTree = "<group>"; };
+		DC8417981C7351E5006A0C72 /* dtgex2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgex2.f; sourceTree = "<group>"; };
+		DC8417991C7351E5006A0C72 /* dtgexc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgexc.f; sourceTree = "<group>"; };
+		DC84179A1C7351E5006A0C72 /* dtgsen.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgsen.f; sourceTree = "<group>"; };
+		DC84179B1C7351E5006A0C72 /* dtgsja.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgsja.f; sourceTree = "<group>"; };
+		DC84179C1C7351E5006A0C72 /* dtgsna.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgsna.f; sourceTree = "<group>"; };
+		DC84179D1C7351E5006A0C72 /* dtgsy2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgsy2.f; sourceTree = "<group>"; };
+		DC84179E1C7351E5006A0C72 /* dtgsyl.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtgsyl.f; sourceTree = "<group>"; };
+		DC84179F1C7351E5006A0C72 /* dtpcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtpcon.f; sourceTree = "<group>"; };
+		DC8417A01C7351E6006A0C72 /* dtpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtpmv.f; sourceTree = "<group>"; };
+		DC8417A11C7351E6006A0C72 /* dtprfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtprfs.f; sourceTree = "<group>"; };
+		DC8417A21C7351E6006A0C72 /* dtpsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtpsv.f; sourceTree = "<group>"; };
+		DC8417A31C7351E6006A0C72 /* dtptri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtptri.f; sourceTree = "<group>"; };
+		DC8417A41C7351E6006A0C72 /* dtptrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtptrs.f; sourceTree = "<group>"; };
+		DC8417A51C7351E6006A0C72 /* dtrcon.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrcon.f; sourceTree = "<group>"; };
+		DC8417A61C7351E6006A0C72 /* dtrevc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrevc.f; sourceTree = "<group>"; };
+		DC8417A71C7351E6006A0C72 /* dtrexc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrexc.f; sourceTree = "<group>"; };
+		DC8417A81C7351E6006A0C72 /* dtrmm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrmm.f; sourceTree = "<group>"; };
+		DC8417A91C7351E6006A0C72 /* dtrmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrmv.f; sourceTree = "<group>"; };
+		DC8417AA1C7351E6006A0C72 /* dtrrfs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrrfs.f; sourceTree = "<group>"; };
+		DC8417AB1C7351E6006A0C72 /* dtrsen.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrsen.f; sourceTree = "<group>"; };
+		DC8417AC1C7351E6006A0C72 /* dtrsm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrsm.f; sourceTree = "<group>"; };
+		DC8417AD1C7351E6006A0C72 /* dtrsna.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrsna.f; sourceTree = "<group>"; };
+		DC8417AE1C7351E6006A0C72 /* dtrsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrsv.f; sourceTree = "<group>"; };
+		DC8417AF1C7351E6006A0C72 /* dtrsyl.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrsyl.f; sourceTree = "<group>"; };
+		DC8417B01C7351E6006A0C72 /* dtrti2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrti2.f; sourceTree = "<group>"; };
+		DC8417B11C7351E6006A0C72 /* dtrtri.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrtri.f; sourceTree = "<group>"; };
+		DC8417B21C7351E6006A0C72 /* dtrtrs.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtrtrs.f; sourceTree = "<group>"; };
+		DC8417B31C7351E6006A0C72 /* dtzrqf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtzrqf.f; sourceTree = "<group>"; };
+		DC8417B41C7351E6006A0C72 /* dtzrzf.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dtzrzf.f; sourceTree = "<group>"; };
+		DC8417B51C7351E6006A0C72 /* dzasum.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dzasum.f; sourceTree = "<group>"; };
+		DC8417B61C7351E6006A0C72 /* dznrm2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dznrm2.f; sourceTree = "<group>"; };
+		DC8417B71C7351E6006A0C72 /* dzsum1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = dzsum1.f; sourceTree = "<group>"; };
+		DC8417B81C7351E6006A0C72 /* icamax.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = icamax.f; sourceTree = "<group>"; };
+		DC8417B91C7351E6006A0C72 /* idamax.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = idamax.f; sourceTree = "<group>"; };
+		DC8417BA1C7351E6006A0C72 /* ieeeck.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ieeeck.f; sourceTree = "<group>"; };
+		DC8417BB1C7351E6006A0C72 /* ilaenv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ilaenv.f; sourceTree = "<group>"; };
+		DC8417BC1C7351E6006A0C72 /* isamax.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = isamax.f; sourceTree = "<group>"; };
+		DC8417BD1C7351E6006A0C72 /* izamax.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = izamax.f; sourceTree = "<group>"; };
+		DC8417BE1C7351E6006A0C72 /* lsame.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = lsame.f; sourceTree = "<group>"; };
+		DC8417BF1C7351E6006A0C72 /* mtx_lib.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = mtx_lib.f; sourceTree = "<group>"; };
+		DC8417C01C7351E6006A0C72 /* sasum.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sasum.f; sourceTree = "<group>"; };
+		DC8417C11C7351E6006A0C72 /* saxpy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = saxpy.f; sourceTree = "<group>"; };
+		DC8417C21C7351E6006A0C72 /* scabs1.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = scabs1.f; sourceTree = "<group>"; };
+		DC8417C31C7351E6006A0C72 /* scasum.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = scasum.f; sourceTree = "<group>"; };
+		DC8417C41C7351E6006A0C72 /* scnrm2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = scnrm2.f; sourceTree = "<group>"; };
+		DC8417C51C7351E6006A0C72 /* scopy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = scopy.f; sourceTree = "<group>"; };
+		DC8417C61C7351E6006A0C72 /* sdot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sdot.f; sourceTree = "<group>"; };
+		DC8417C71C7351E6006A0C72 /* sdsdot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sdsdot.f; sourceTree = "<group>"; };
+		DC8417C81C7351E6006A0C72 /* sgbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sgbmv.f; sourceTree = "<group>"; };
+		DC8417C91C7351E6006A0C72 /* sgemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sgemm.f; sourceTree = "<group>"; };
+		DC8417CA1C7351E6006A0C72 /* sgemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sgemv.f; sourceTree = "<group>"; };
+		DC8417CB1C7351E6006A0C72 /* sger.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sger.f; sourceTree = "<group>"; };
+		DC8417CC1C7351E6006A0C72 /* snrm2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = snrm2.f; sourceTree = "<group>"; };
+		DC8417CD1C7351E6006A0C72 /* square_solve.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = square_solve.f90; sourceTree = "<group>"; };
+		DC8417CE1C7351E6006A0C72 /* srot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = srot.f; sourceTree = "<group>"; };
+		DC8417CF1C7351E6006A0C72 /* srotg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = srotg.f; sourceTree = "<group>"; };
+		DC8417D01C7351E6006A0C72 /* srotm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = srotm.f; sourceTree = "<group>"; };
+		DC8417D11C7351E6006A0C72 /* srotmg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = srotmg.f; sourceTree = "<group>"; };
+		DC8417D21C7351E6006A0C72 /* ssbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssbmv.f; sourceTree = "<group>"; };
+		DC8417D31C7351E6006A0C72 /* sscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sscal.f; sourceTree = "<group>"; };
+		DC8417D41C7351E6006A0C72 /* sspmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sspmv.f; sourceTree = "<group>"; };
+		DC8417D51C7351E6006A0C72 /* sspr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sspr.f; sourceTree = "<group>"; };
+		DC8417D61C7351E6006A0C72 /* sspr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sspr2.f; sourceTree = "<group>"; };
+		DC8417D71C7351E6006A0C72 /* sswap.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = sswap.f; sourceTree = "<group>"; };
+		DC8417D81C7351E6006A0C72 /* ssymm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssymm.f; sourceTree = "<group>"; };
+		DC8417D91C7351E6006A0C72 /* ssymv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssymv.f; sourceTree = "<group>"; };
+		DC8417DA1C7351E6006A0C72 /* ssyr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssyr.f; sourceTree = "<group>"; };
+		DC8417DB1C7351E6006A0C72 /* ssyr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssyr2.f; sourceTree = "<group>"; };
+		DC8417DC1C7351E6006A0C72 /* ssyr2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssyr2k.f; sourceTree = "<group>"; };
+		DC8417DD1C7351E6006A0C72 /* ssyrk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ssyrk.f; sourceTree = "<group>"; };
+		DC8417DE1C7351E6006A0C72 /* stbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = stbmv.f; sourceTree = "<group>"; };
+		DC8417DF1C7351E6006A0C72 /* stbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = stbsv.f; sourceTree = "<group>"; };
+		DC8417E01C7351E6006A0C72 /* stpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = stpmv.f; sourceTree = "<group>"; };
+		DC8417E11C7351E6006A0C72 /* stpsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = stpsv.f; sourceTree = "<group>"; };
+		DC8417E21C7351E6006A0C72 /* strmm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = strmm.f; sourceTree = "<group>"; };
+		DC8417E31C7351E6006A0C72 /* strmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = strmv.f; sourceTree = "<group>"; };
+		DC8417E41C7351E6006A0C72 /* strsm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = strsm.f; sourceTree = "<group>"; };
+		DC8417E51C7351E6006A0C72 /* strsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = strsv.f; sourceTree = "<group>"; };
+		DC8417E61C7351E6006A0C72 /* xerbla.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = xerbla.f; sourceTree = "<group>"; };
+		DC8417E71C7351E6006A0C72 /* xerbla_sav.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = xerbla_sav.f; sourceTree = "<group>"; };
+		DC8417E81C7351E6006A0C72 /* zaxpy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zaxpy.f; sourceTree = "<group>"; };
+		DC8417E91C7351E6006A0C72 /* zcopy.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zcopy.f; sourceTree = "<group>"; };
+		DC8417EA1C7351E6006A0C72 /* zdotc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zdotc.f; sourceTree = "<group>"; };
+		DC8417EB1C7351E6006A0C72 /* zdotu.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zdotu.f; sourceTree = "<group>"; };
+		DC8417EC1C7351E6006A0C72 /* zdrot.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zdrot.f; sourceTree = "<group>"; };
+		DC8417ED1C7351E6006A0C72 /* zdscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zdscal.f; sourceTree = "<group>"; };
+		DC8417EE1C7351E6006A0C72 /* zgbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zgbmv.f; sourceTree = "<group>"; };
+		DC8417EF1C7351E6006A0C72 /* zgemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zgemm.f; sourceTree = "<group>"; };
+		DC8417F01C7351E6006A0C72 /* zgemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zgemv.f; sourceTree = "<group>"; };
+		DC8417F11C7351E6006A0C72 /* zgerc.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zgerc.f; sourceTree = "<group>"; };
+		DC8417F21C7351E6006A0C72 /* zgeru.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zgeru.f; sourceTree = "<group>"; };
+		DC8417F31C7351E6006A0C72 /* zhbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhbmv.f; sourceTree = "<group>"; };
+		DC8417F41C7351E6006A0C72 /* zhemm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhemm.f; sourceTree = "<group>"; };
+		DC8417F51C7351E6006A0C72 /* zhemv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhemv.f; sourceTree = "<group>"; };
+		DC8417F61C7351E6006A0C72 /* zher.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zher.f; sourceTree = "<group>"; };
+		DC8417F71C7351E6006A0C72 /* zher2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zher2.f; sourceTree = "<group>"; };
+		DC8417F81C7351E6006A0C72 /* zher2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zher2k.f; sourceTree = "<group>"; };
+		DC8417F91C7351E6006A0C72 /* zherk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zherk.f; sourceTree = "<group>"; };
+		DC8417FA1C7351E6006A0C72 /* zhpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhpmv.f; sourceTree = "<group>"; };
+		DC8417FB1C7351E6006A0C72 /* zhpr.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhpr.f; sourceTree = "<group>"; };
+		DC8417FC1C7351E6006A0C72 /* zhpr2.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zhpr2.f; sourceTree = "<group>"; };
+		DC8417FD1C7351E6006A0C72 /* zrotg.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zrotg.f; sourceTree = "<group>"; };
+		DC8417FE1C7351E6006A0C72 /* zscal.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zscal.f; sourceTree = "<group>"; };
+		DC8417FF1C7351E6006A0C72 /* zswap.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zswap.f; sourceTree = "<group>"; };
+		DC8418001C7351E6006A0C72 /* zsymm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zsymm.f; sourceTree = "<group>"; };
+		DC8418011C7351E6006A0C72 /* zsyr2k.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zsyr2k.f; sourceTree = "<group>"; };
+		DC8418021C7351E6006A0C72 /* zsyrk.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = zsyrk.f; sourceTree = "<group>"; };
+		DC8418031C7351E6006A0C72 /* ztbmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztbmv.f; sourceTree = "<group>"; };
+		DC8418041C7351E6006A0C72 /* ztbsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztbsv.f; sourceTree = "<group>"; };
+		DC8418051C7351E6006A0C72 /* ztpmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztpmv.f; sourceTree = "<group>"; };
+		DC8418061C7351E6006A0C72 /* ztpsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztpsv.f; sourceTree = "<group>"; };
+		DC8418071C7351E6006A0C72 /* ztrmm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztrmm.f; sourceTree = "<group>"; };
+		DC8418081C7351E6006A0C72 /* ztrmv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztrmv.f; sourceTree = "<group>"; };
+		DC8418091C7351E6006A0C72 /* ztrsm.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztrsm.f; sourceTree = "<group>"; };
+		DC84180A1C7351E6006A0C72 /* ztrsv.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = ztrsv.f; sourceTree = "<group>"; };
+		DC8418581C7351E7006A0C72 /* chemical_reactions.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = chemical_reactions.f90; sourceTree = "<group>"; };
+		DC8418591C7351E7006A0C72 /* chemical_species.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = chemical_species.f90; sourceTree = "<group>"; };
+		DC84185A1C7351E7006A0C72 /* CO.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = CO.f90; sourceTree = "<group>"; };
+		DC84185B1C7351E7006A0C72 /* CO_interpol.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = CO_interpol.f90; sourceTree = "<group>"; };
+		DC84185C1C7351E7006A0C72 /* CO_sauvegarde.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = CO_sauvegarde.f90; sourceTree = "<group>"; };
+		DC84185D1C7351E7006A0C72 /* constants.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = constants.f90; sourceTree = "<group>"; };
+		DC84185E1C7351E7006A0C72 /* def.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = def.f90; sourceTree = "<group>"; };
+		DC84185F1C7351E7006A0C72 /* energetics.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = energetics.f90; sourceTree = "<group>"; };
+		DC8418601C7351E7006A0C72 /* evolution.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = evolution.f90; sourceTree = "<group>"; };
+		DC8418611C7351E7006A0C72 /* H2.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = H2.f90; sourceTree = "<group>"; };
+		DC8418621C7351E7006A0C72 /* H2_orig.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = H2_orig.f90; sourceTree = "<group>"; };
+		DC8418631C7351E7006A0C72 /* H2_SAW.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = H2_SAW.f90; sourceTree = "<group>"; };
+		DC8418641C7351E7006A0C72 /* initialize.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = initialize.f90; sourceTree = "<group>"; };
+		DC8418651C7351E7006A0C72 /* integrateur_vode.f */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran; path = integrateur_vode.f; sourceTree = "<group>"; };
+		DC8418661C7351E7006A0C72 /* line_excit.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = line_excit.f90; sourceTree = "<group>"; };
+		DC8418671C7351E7006A0C72 /* mhd_vode.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = mhd_vode.f90; sourceTree = "<group>"; };
+		DC8418681C7351E7006A0C72 /* molecular_cooling.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = molecular_cooling.f90; sourceTree = "<group>"; };
+		DC8418691C7351E7006A0C72 /* numerical_recipes.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = numerical_recipes.f90; sourceTree = "<group>"; };
+		DC84186A1C7351E7006A0C72 /* outputs.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = outputs.f90; sourceTree = "<group>"; };
+		DC84186B1C7351E7006A0C72 /* precision.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = precision.f90; sourceTree = "<group>"; };
+		DC84186C1C7351E7006A0C72 /* read_fe_data.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = read_fe_data.f90; sourceTree = "<group>"; };
+		DC84186D1C7351E7006A0C72 /* SiO.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = SiO.f90; sourceTree = "<group>"; };
+		DC84186E1C7351E7006A0C72 /* tools.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = tools.f90; sourceTree = "<group>"; };
+		DC84186F1C7351E7006A0C72 /* var_VODE.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = var_VODE.f90; sourceTree = "<group>"; };
+		DC8418701C7351E7006A0C72 /* variables_mhd.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = variables_mhd.f90; sourceTree = "<group>"; };
+		DC8418711C7352F0006A0C72 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DC959BF021907FD400831A7B /* CO_levels_Evj.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = CO_levels_Evj.in; path = input/CO_levels_Evj.in; sourceTree = SOURCE_ROOT; };
+		DC959BF12190800900831A7B /* T112C16O.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = T112C16O.txt; sourceTree = "<group>"; };
+		DCB714F41F7A3D4A00167FF4 /* dust.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = dust.f90; sourceTree = "<group>"; };
+		DCB714F51F7A3D4A00167FF4 /* radiation.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = radiation.f90; sourceTree = "<group>"; };
+		DCD2CF821D673F7300EFFDD3 /* meta_chemistr.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = meta_chemistr.dat; sourceTree = "<group>"; };
+		DCF6263D1D547C1600F62019 /* outputs_hdf5.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = outputs_hdf5.f90; sourceTree = "<group>"; };
+		DCF6263E1D547C1600F62019 /* profil_tables.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = profil_tables.f90; sourceTree = "<group>"; };
+		DCF6263F1D547C1600F62019 /* shock_write_HDF5.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = shock_write_HDF5.py; sourceTree = "<group>"; };
+		DCF626401D547C1600F62019 /* techconfig.f90 */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.fortran.f90; path = techconfig.f90; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		DC0EACCA1F72B98400E8CECB /* Grains */ = {
+			isa = PBXGroup;
+			children = (
+				DC0EACCB1F72B98400E8CECB /* Draine1985-Dielec-func.dat */,
+				DC0EACCC1F72B98400E8CECB /* Mix_hcapa_BG_10_2013.dat */,
+				DC0EACCD1F72B98400E8CECB /* Mix_Qcoef_BG_10_2013.dat */,
+			);
+			path = Grains;
+			sourceTree = "<group>";
+		};
+		DC0EAD1A1F72B99100E8CECB /* UVdata */ = {
+			isa = PBXGroup;
+			children = (
+				DC959BF12190800900831A7B /* T112C16O.txt */,
+				DC0EAD1B1F72B99100E8CECB /* uvh2b29.dat */,
+				DC0EAD1C1F72B99100E8CECB /* uvh2c29.dat */,
+			);
+			path = UVdata;
+			sourceTree = "<group>";
+		};
+		DC3FACBB2170A34200CF661F /* cross_sections */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FACBC2170A34200CF661F /* NH2_pi.txt */,
+				DC3FACBD2170A34200CF661F /* H2S_pd.txt */,
+				DC3FACBE2170A34200CF661F /* O_pi.txt */,
+				DC3FACBF2170A34200CF661F /* CH_pi_old.txt */,
+				DC3FACC02170A34200CF661F /* HCl_pi.txt */,
+				DC3FACC12170A34200CF661F /* C_pi.txt */,
+				DC3FACC22170A34200CF661F /* CN_pd_old.txt */,
+				DC3FACC32170A34200CF661F /* CO2_pd.txt */,
+				DC3FACC42170A34200CF661F /* SO2_pi.txt */,
+				DC3FACC52170A34200CF661F /* CN_pi.txt */,
+				DC3FACC62170A34200CF661F /* CS_pd.txt */,
+				DC3FACC72170A34200CF661F /* CH3_pd.txt */,
+				DC3FACC82170A34200CF661F /* N2_pd.txt */,
+				DC3FACC92170A34200CF661F /* CH+_pd.txt */,
+				DC3FACCA2170A34200CF661F /* H2CO_pi.txt */,
+				DC3FACCB2170A34200CF661F /* O2+_pd.txt */,
+				DC3FACCC2170A34200CF661F /* C2H2_pd.txt */,
+				DC3FACCD2170A34200CF661F /* H2O_pi_old.txt */,
+				DC3FACCE2170A34200CF661F /* Cl_pi.txt */,
+				DC3FACCF2170A34200CF661F /* CH3OH_pi.txt */,
+				DC3FACD02170A34200CF661F /* CH4_pi.txt */,
+				DC3FACD12170A34200CF661F /* O2_pd.txt */,
+				DC3FACD22170A34200CF661F /* Fe_pi.txt */,
+				DC3FACD32170A34200CF661F /* l-C3H2_pd.txt */,
+				DC3FACD42170A34200CF661F /* OH_pi_old.txt */,
+				DC3FACD52170A34200CF661F /* Si_pi.txt */,
+				DC3FACD62170A34200CF661F /* SiH_pd.txt */,
+				DC3FACD72170A34200CF661F /* CH2+_pd.txt */,
+				DC3FACD82170A34200CF661F /* C2_pi.txt */,
+				DC3FACD92170A34200CF661F /* S2_pd.txt */,
+				DC3FACDA2170A34200CF661F /* HCN_pi.txt */,
+				DC3FACDB2170A34200CF661F /* C_pi_old.txt */,
+				DC3FACDC2170A34200CF661F /* H2+_pd.txt */,
+				DC3FACDD2170A34200CF661F /* C2_pd_old.txt */,
+				DC3FACDE2170A34200CF661F /* CH_pi.txt */,
+				DC3FACDF2170A34200CF661F /* NH_pd_old.txt */,
+				DC3FACE02170A34200CF661F /* threshold_dissociation_ionization_2.pdf */,
+				DC3FACE12170A34200CF661F /* SH_pd.txt */,
+				DC3FACE22170A34200CF661F /* NO_pi.txt */,
+				DC3FACE32170A34200CF661F /* OCS_pd.txt */,
+				DC3FACE42170A34200CF661F /* OH_pd.txt */,
+				DC3FACE52170A34200CF661F /* HCO_pd.txt */,
+				DC3FACE62170A34200CF661F /* C3_pd.txt */,
+				DC3FACE72170A34200CF661F /* NH3_pd.txt */,
+				DC3FACE82170A34200CF661F /* H2O_pd.txt */,
+				DC3FACE92170A34200CF661F /* S_pi.txt */,
+				DC3FACEA2170A34200CF661F /* NH_pd.txt */,
+				DC3FACEB2170A34200CF661F /* OH+_pd.txt */,
+				DC3FACEC2170A34200CF661F /* NH+_pd.txt */,
+				DC3FACED2170A34200CF661F /* H3+_pd.txt */,
+				DC3FACEE2170A34200CF661F /* SO_pi.txt */,
+				DC3FACEF2170A34200CF661F /* c-C3H2_pd.txt */,
+				DC3FACF02170A34200CF661F /* HNC_pi.txt */,
+				DC3FACF12170A34200CF661F /* HNC_pd.txt */,
+				DC3FACF22170A34200CF661F /* H-_pi.txt */,
+				DC3FACF32170A34200CF661F /* CO+_pd.txt */,
+				DC3FACF42170A34200CF661F /* SO_pd.txt */,
+				DC3FACF52170A34200CF661F /* CH2_pd.txt */,
+				DC3FACF62170A34200CF661F /* N_pi.txt */,
+				DC3FACF72170A34200CF661F /* SiH+_pd.txt */,
+				DC3FACF82170A34200CF661F /* NH_pi.txt */,
+				DC3FACF92170A34200CF661F /* H2O_pi.txt */,
+				DC3FACFA2170A34200CF661F /* HCl+_pd.txt */,
+				DC3FACFB2170A34200CF661F /* NH3_pi.txt */,
+				DC3FACFC2170A34200CF661F /* CH4+_pd.txt */,
+				DC3FACFD2170A34200CF661F /* C2_pi_old.txt */,
+				DC3FACFE2170A34200CF661F /* C3_pi.txt */,
+				DC3FACFF2170A34200CF661F /* OCS_pi.txt */,
+				DC3FAD002170A34200CF661F /* NO_pd.txt */,
+				DC3FAD012170A34200CF661F /* threshold_dissociation_ionization_2.gnu */,
+				DC3FAD022170A34200CF661F /* C2H_pd.txt */,
+				DC3FAD032170A34200CF661F /* SH_pi.txt */,
+				DC3FAD042170A34200CF661F /* S_pi_old.txt */,
+				DC3FAD052170A34200CF661F /* CH_pd.txt */,
+				DC3FAD062170A34200CF661F /* c-C3H_pd.txt */,
+				DC3FAD072170A34200CF661F /* HCN_pd.txt */,
+				DC3FAD082170A34200CF661F /* S2_pi.txt */,
+				DC3FAD092170A34200CF661F /* C2_pd.txt */,
+				DC3FAD0A2170A34200CF661F /* H_pi.txt */,
+				DC3FAD0B2170A34200CF661F /* HC3H_pd.txt */,
+				DC3FAD0C2170A34200CF661F /* HCO+_pd.txt */,
+				DC3FAD0D2170A34200CF661F /* O2_pi.txt */,
+				DC3FAD0E2170A34200CF661F /* CH4_pd.txt */,
+				DC3FAD0F2170A34200CF661F /* CH3OH_pd.txt */,
+				DC3FAD102170A34200CF661F /* CH_pd_old.txt */,
+				DC3FAD112170A34200CF661F /* C2H2_pi.txt */,
+				DC3FAD122170A34200CF661F /* H2CO_pd.txt */,
+				DC3FAD132170A34200CF661F /* l-C3H_pd.txt */,
+				DC3FAD142170A34200CF661F /* C3_pd_old.txt */,
+				DC3FAD152170A34200CF661F /* N2_pi.txt */,
+				DC3FAD162170A34200CF661F /* SH+_pd.txt */,
+				DC3FAD172170A34200CF661F /* CH3_pi.txt */,
+				DC3FAD182170A34200CF661F /* CS_pi.txt */,
+				DC3FAD192170A34200CF661F /* CN_pd.txt */,
+				DC3FAD1A2170A34200CF661F /* SO2_pd.txt */,
+				DC3FAD1B2170A34200CF661F /* CO2_pi.txt */,
+				DC3FAD1C2170A34200CF661F /* OH_pd_old.txt */,
+				DC3FAD1D2170A34200CF661F /* SiO_pd.txt */,
+				DC3FAD1E2170A34200CF661F /* HCl_pd.txt */,
+				DC3FAD1F2170A34200CF661F /* NH2_pd.txt */,
+				DC3FAD202170A34200CF661F /* H2S_pi.txt */,
+				DC3FAD212170A34200CF661F /* H2O_pd_old.txt */,
+			);
+			path = cross_sections;
+			sourceTree = "<group>";
+		};
+		DC503DB41D547F0700B7A071 /* TechConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DC503DB51D547F0700B7A071 /* meta_standard.dat */,
+				DCD2CF821D673F7300EFFDD3 /* meta_chemistr.dat */,
+			);
+			path = TechConfig;
+			sourceTree = "<group>";
+		};
+		DC57F0701C73458600BF2FF0 = {
+			isa = PBXGroup;
+			children = (
+				DC84143B1C7351E3006A0C72 /* input */,
+				DC84144B1C7351E3006A0C72 /* mtx */,
+				DC8418471C7351E6006A0C72 /* output */,
+				DC8418571C7351E7006A0C72 /* src */,
+				DC8414391C73516E006A0C72 /* bin */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8414391C73516E006A0C72 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				DC84143A1C73516E006A0C72 /* Makefile */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		DC84143B1C7351E3006A0C72 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FACBB2170A34200CF661F /* cross_sections */,
+				DC0EACCA1F72B98400E8CECB /* Grains */,
+				DC503DB41D547F0700B7A071 /* TechConfig */,
+				DC0EAD1A1F72B99100E8CECB /* UVdata */,
+				DC84143C1C7351E3006A0C72 /* Aij_H2.in */,
+				DC84143D1C7351E3006A0C72 /* Aval_Fe */,
+				DC84143E1C7351E3006A0C72 /* chemistry.in */,
+				DC0EAD1D1F72BA3300E8CECB /* chemistry.in_noadso */,
+				DC84143F1C7351E3006A0C72 /* coeff_GR_H2.in */,
+				DC8414401C7351E3006A0C72 /* coeff_H2_H2.in */,
+				DC8414411C7351E3006A0C72 /* coeff_H_H2_DRF.in */,
+				DC8414421C7351E3006A0C72 /* coeff_H_H2_MM.in */,
+				DC8414431C7351E3006A0C72 /* coeff_He_H2.in */,
+				DC8414441C7351E3006A0C72 /* coeff_SiO.in */,
+				DC8414451C7351E3006A0C72 /* gamma_eFe */,
+				DC0EAD1E1F72BA3300E8CECB /* h2levels.in */,
+				DC8414461C7351E3006A0C72 /* H2_levels_Evj.in */,
+				DC959BF021907FD400831A7B /* CO_levels_Evj.in */,
+				DC8414471C7351E3006A0C72 /* input_mhd.in */,
+				DC8414481C7351E3006A0C72 /* OH2GR.DAT */,
+				DC8414491C7351E3006A0C72 /* PH2GR.DAT */,
+				DC6244921E97E6BB0068D21A /* shield_H2.dat */,
+				DC6244911E97E6BB0068D21A /* shield_CO.dat */,
+				DC84144A1C7351E3006A0C72 /* species.in */,
+				DC0EAD1F1F72BA3300E8CECB /* species.in_depl */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		DC84144B1C7351E3006A0C72 /* mtx */ = {
+			isa = PBXGroup;
+			children = (
+				DC8418711C7352F0006A0C72 /* Makefile */,
+				DC84160D1C7351E5006A0C72 /* src */,
+			);
+			path = mtx;
+			sourceTree = "<group>";
+		};
+		DC84160D1C7351E5006A0C72 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DC84160E1C7351E5006A0C72 /* caxpy.f */,
+				DC84160F1C7351E5006A0C72 /* ccopy.f */,
+				DC8416101C7351E5006A0C72 /* cdotc.f */,
+				DC8416111C7351E5006A0C72 /* cdotu.f */,
+				DC8416121C7351E5006A0C72 /* cgbmv.f */,
+				DC8416131C7351E5006A0C72 /* cgemm.f */,
+				DC8416141C7351E5006A0C72 /* cgemv.f */,
+				DC8416151C7351E5006A0C72 /* cgerc.f */,
+				DC8416161C7351E5006A0C72 /* cgeru.f */,
+				DC8416171C7351E5006A0C72 /* chbmv.f */,
+				DC8416181C7351E5006A0C72 /* chemm.f */,
+				DC8416191C7351E5006A0C72 /* chemv.f */,
+				DC84161A1C7351E5006A0C72 /* cher.f */,
+				DC84161B1C7351E5006A0C72 /* cher2.f */,
+				DC84161C1C7351E5006A0C72 /* cher2k.f */,
+				DC84161D1C7351E5006A0C72 /* cherk.f */,
+				DC84161E1C7351E5006A0C72 /* chpmv.f */,
+				DC84161F1C7351E5006A0C72 /* chpr.f */,
+				DC8416201C7351E5006A0C72 /* chpr2.f */,
+				DC8416211C7351E5006A0C72 /* crotg.f */,
+				DC8416221C7351E5006A0C72 /* cscal.f */,
+				DC8416231C7351E5006A0C72 /* csrot.f */,
+				DC8416241C7351E5006A0C72 /* csscal.f */,
+				DC8416251C7351E5006A0C72 /* cswap.f */,
+				DC8416261C7351E5006A0C72 /* csymm.f */,
+				DC8416271C7351E5006A0C72 /* csyr2k.f */,
+				DC8416281C7351E5006A0C72 /* csyrk.f */,
+				DC8416291C7351E5006A0C72 /* ctbmv.f */,
+				DC84162A1C7351E5006A0C72 /* ctbsv.f */,
+				DC84162B1C7351E5006A0C72 /* ctpmv.f */,
+				DC84162C1C7351E5006A0C72 /* ctpsv.f */,
+				DC84162D1C7351E5006A0C72 /* ctrmm.f */,
+				DC84162E1C7351E5006A0C72 /* ctrmv.f */,
+				DC84162F1C7351E5006A0C72 /* ctrsm.f */,
+				DC8416301C7351E5006A0C72 /* ctrsv.f */,
+				DC8416311C7351E5006A0C72 /* dasum.f */,
+				DC8416321C7351E5006A0C72 /* daxpy.f */,
+				DC8416331C7351E5006A0C72 /* dbdsdc.f */,
+				DC8416341C7351E5006A0C72 /* dbdsqr.f */,
+				DC8416351C7351E5006A0C72 /* dcabs1.f */,
+				DC8416361C7351E5006A0C72 /* dcopy.f */,
+				DC8416371C7351E5006A0C72 /* ddisna.f */,
+				DC8416381C7351E5006A0C72 /* ddot.f */,
+				DC8416391C7351E5006A0C72 /* dgbbrd.f */,
+				DC84163A1C7351E5006A0C72 /* dgbcon.f */,
+				DC84163B1C7351E5006A0C72 /* dgbequ.f */,
+				DC84163C1C7351E5006A0C72 /* dgbmv.f */,
+				DC84163D1C7351E5006A0C72 /* dgbrfs.f */,
+				DC84163E1C7351E5006A0C72 /* dgbsv.f */,
+				DC84163F1C7351E5006A0C72 /* dgbsvx.f */,
+				DC8416401C7351E5006A0C72 /* dgbtf2.f */,
+				DC8416411C7351E5006A0C72 /* dgbtrf.f */,
+				DC8416421C7351E5006A0C72 /* dgbtrs.f */,
+				DC8416431C7351E5006A0C72 /* dgebak.f */,
+				DC8416441C7351E5006A0C72 /* dgebal.f */,
+				DC8416451C7351E5006A0C72 /* dgebd2.f */,
+				DC8416461C7351E5006A0C72 /* dgebrd.f */,
+				DC8416471C7351E5006A0C72 /* dgecon.f */,
+				DC8416481C7351E5006A0C72 /* dgeequ.f */,
+				DC8416491C7351E5006A0C72 /* dgees.f */,
+				DC84164A1C7351E5006A0C72 /* dgeesx.f */,
+				DC84164B1C7351E5006A0C72 /* dgeev.f */,
+				DC84164C1C7351E5006A0C72 /* dgeevx.f */,
+				DC84164D1C7351E5006A0C72 /* dgegs.f */,
+				DC84164E1C7351E5006A0C72 /* dgegv.f */,
+				DC84164F1C7351E5006A0C72 /* dgehd2.f */,
+				DC8416501C7351E5006A0C72 /* dgehrd.f */,
+				DC8416511C7351E5006A0C72 /* dgelq2.f */,
+				DC8416521C7351E5006A0C72 /* dgelqf.f */,
+				DC8416531C7351E5006A0C72 /* dgels.f */,
+				DC8416541C7351E5006A0C72 /* dgelsd.f */,
+				DC8416551C7351E5006A0C72 /* dgelss.f */,
+				DC8416561C7351E5006A0C72 /* dgelsx.f */,
+				DC8416571C7351E5006A0C72 /* dgelsy.f */,
+				DC8416581C7351E5006A0C72 /* dgemm.f */,
+				DC8416591C7351E5006A0C72 /* dgemv.f */,
+				DC84165A1C7351E5006A0C72 /* dgeql2.f */,
+				DC84165B1C7351E5006A0C72 /* dgeqlf.f */,
+				DC84165C1C7351E5006A0C72 /* dgeqp3.f */,
+				DC84165D1C7351E5006A0C72 /* dgeqpf.f */,
+				DC84165E1C7351E5006A0C72 /* dgeqr2.f */,
+				DC84165F1C7351E5006A0C72 /* dgeqrf.f */,
+				DC8416601C7351E5006A0C72 /* dger.f */,
+				DC8416611C7351E5006A0C72 /* dgerfs.f */,
+				DC8416621C7351E5006A0C72 /* dgerq2.f */,
+				DC8416631C7351E5006A0C72 /* dgerqf.f */,
+				DC8416641C7351E5006A0C72 /* dgesc2.f */,
+				DC8416651C7351E5006A0C72 /* dgesdd.f */,
+				DC8416661C7351E5006A0C72 /* dgesv.f */,
+				DC8416671C7351E5006A0C72 /* dgesvd.f */,
+				DC8416681C7351E5006A0C72 /* dgesvx.f */,
+				DC8416691C7351E5006A0C72 /* dgetc2.f */,
+				DC84166A1C7351E5006A0C72 /* dgetf2.f */,
+				DC84166B1C7351E5006A0C72 /* dgetrf.f */,
+				DC84166C1C7351E5006A0C72 /* dgetri.f */,
+				DC84166D1C7351E5006A0C72 /* dgetrs.f */,
+				DC84166E1C7351E5006A0C72 /* dggbak.f */,
+				DC84166F1C7351E5006A0C72 /* dggbal.f */,
+				DC8416701C7351E5006A0C72 /* dgges.f */,
+				DC8416711C7351E5006A0C72 /* dggesx.f */,
+				DC8416721C7351E5006A0C72 /* dggev.f */,
+				DC8416731C7351E5006A0C72 /* dggevx.f */,
+				DC8416741C7351E5006A0C72 /* dggglm.f */,
+				DC8416751C7351E5006A0C72 /* dgghrd.f */,
+				DC8416761C7351E5006A0C72 /* dgglse.f */,
+				DC8416771C7351E5006A0C72 /* dggqrf.f */,
+				DC8416781C7351E5006A0C72 /* dggrqf.f */,
+				DC8416791C7351E5006A0C72 /* dggsvd.f */,
+				DC84167A1C7351E5006A0C72 /* dggsvp.f */,
+				DC84167B1C7351E5006A0C72 /* dgtcon.f */,
+				DC84167C1C7351E5006A0C72 /* dgtrfs.f */,
+				DC84167D1C7351E5006A0C72 /* dgtsv.f */,
+				DC84167E1C7351E5006A0C72 /* dgtsvx.f */,
+				DC84167F1C7351E5006A0C72 /* dgttrf.f */,
+				DC8416801C7351E5006A0C72 /* dgttrs.f */,
+				DC8416811C7351E5006A0C72 /* dgtts2.f */,
+				DC8416821C7351E5006A0C72 /* dhgeqz.f */,
+				DC8416831C7351E5006A0C72 /* dhsein.f */,
+				DC8416841C7351E5006A0C72 /* dhseqr.f */,
+				DC8416851C7351E5006A0C72 /* disnan.f */,
+				DC8416861C7351E5006A0C72 /* dlabad.f */,
+				DC8416871C7351E5006A0C72 /* dlabrd.f */,
+				DC8416881C7351E5006A0C72 /* dlacn2.f */,
+				DC8416891C7351E5006A0C72 /* dlacon.f */,
+				DC84168A1C7351E5006A0C72 /* dlacpy.f */,
+				DC84168B1C7351E5006A0C72 /* dladiv.f */,
+				DC84168C1C7351E5006A0C72 /* dlae2.f */,
+				DC84168D1C7351E5006A0C72 /* dlaebz.f */,
+				DC84168E1C7351E5006A0C72 /* dlaed0.f */,
+				DC84168F1C7351E5006A0C72 /* dlaed1.f */,
+				DC8416901C7351E5006A0C72 /* dlaed2.f */,
+				DC8416911C7351E5006A0C72 /* dlaed3.f */,
+				DC8416921C7351E5006A0C72 /* dlaed4.f */,
+				DC8416931C7351E5006A0C72 /* dlaed5.f */,
+				DC8416941C7351E5006A0C72 /* dlaed6.f */,
+				DC8416951C7351E5006A0C72 /* dlaed7.f */,
+				DC8416961C7351E5006A0C72 /* dlaed8.f */,
+				DC8416971C7351E5006A0C72 /* dlaed9.f */,
+				DC8416981C7351E5006A0C72 /* dlaeda.f */,
+				DC8416991C7351E5006A0C72 /* dlaein.f */,
+				DC84169A1C7351E5006A0C72 /* dlaev2.f */,
+				DC84169B1C7351E5006A0C72 /* dlaexc.f */,
+				DC84169C1C7351E5006A0C72 /* dlag2.f */,
+				DC84169D1C7351E5006A0C72 /* dlag2s.f */,
+				DC84169E1C7351E5006A0C72 /* dlags2.f */,
+				DC84169F1C7351E5006A0C72 /* dlagtf.f */,
+				DC8416A01C7351E5006A0C72 /* dlagtm.f */,
+				DC8416A11C7351E5006A0C72 /* dlagts.f */,
+				DC8416A21C7351E5006A0C72 /* dlagv2.f */,
+				DC8416A31C7351E5006A0C72 /* dlahqr.f */,
+				DC8416A41C7351E5006A0C72 /* dlahr2.f */,
+				DC8416A51C7351E5006A0C72 /* dlahrd.f */,
+				DC8416A61C7351E5006A0C72 /* dlaic1.f */,
+				DC8416A71C7351E5006A0C72 /* dlaisnan.f */,
+				DC8416A81C7351E5006A0C72 /* dlaln2.f */,
+				DC8416A91C7351E5006A0C72 /* dlals0.f */,
+				DC8416AA1C7351E5006A0C72 /* dlalsa.f */,
+				DC8416AB1C7351E5006A0C72 /* dlalsd.f */,
+				DC8416AC1C7351E5006A0C72 /* dlamch.f */,
+				DC8416AD1C7351E5006A0C72 /* dlamrg.f */,
+				DC8416AE1C7351E5006A0C72 /* dlaneg.f */,
+				DC8416AF1C7351E5006A0C72 /* dlangb.f */,
+				DC8416B01C7351E5006A0C72 /* dlange.f */,
+				DC8416B11C7351E5006A0C72 /* dlangt.f */,
+				DC8416B21C7351E5006A0C72 /* dlanhs.f */,
+				DC8416B31C7351E5006A0C72 /* dlansb.f */,
+				DC8416B41C7351E5006A0C72 /* dlansp.f */,
+				DC8416B51C7351E5006A0C72 /* dlanst.f */,
+				DC8416B61C7351E5006A0C72 /* dlansy.f */,
+				DC8416B71C7351E5006A0C72 /* dlantb.f */,
+				DC8416B81C7351E5006A0C72 /* dlantp.f */,
+				DC8416B91C7351E5006A0C72 /* dlantr.f */,
+				DC8416BA1C7351E5006A0C72 /* dlanv2.f */,
+				DC8416BB1C7351E5006A0C72 /* dlapll.f */,
+				DC8416BC1C7351E5006A0C72 /* dlapmt.f */,
+				DC8416BD1C7351E5006A0C72 /* dlapy2.f */,
+				DC8416BE1C7351E5006A0C72 /* dlapy3.f */,
+				DC8416BF1C7351E5006A0C72 /* dlaqgb.f */,
+				DC8416C01C7351E5006A0C72 /* dlaqge.f */,
+				DC8416C11C7351E5006A0C72 /* dlaqp2.f */,
+				DC8416C21C7351E5006A0C72 /* dlaqps.f */,
+				DC8416C31C7351E5006A0C72 /* dlaqr0.f */,
+				DC8416C41C7351E5006A0C72 /* dlaqr1.f */,
+				DC8416C51C7351E5006A0C72 /* dlaqr2.f */,
+				DC8416C61C7351E5006A0C72 /* dlaqr3.f */,
+				DC8416C71C7351E5006A0C72 /* dlaqr4.f */,
+				DC8416C81C7351E5006A0C72 /* dlaqr5.f */,
+				DC8416C91C7351E5006A0C72 /* dlaqsb.f */,
+				DC8416CA1C7351E5006A0C72 /* dlaqsp.f */,
+				DC8416CB1C7351E5006A0C72 /* dlaqsy.f */,
+				DC8416CC1C7351E5006A0C72 /* dlaqtr.f */,
+				DC8416CD1C7351E5006A0C72 /* dlar1v.f */,
+				DC8416CE1C7351E5006A0C72 /* dlar2v.f */,
+				DC8416CF1C7351E5006A0C72 /* dlarf.f */,
+				DC8416D01C7351E5006A0C72 /* dlarfb.f */,
+				DC8416D11C7351E5006A0C72 /* dlarfg.f */,
+				DC8416D21C7351E5006A0C72 /* dlarft.f */,
+				DC8416D31C7351E5006A0C72 /* dlarfx.f */,
+				DC8416D41C7351E5006A0C72 /* dlargv.f */,
+				DC8416D51C7351E5006A0C72 /* dlarnv.f */,
+				DC8416D61C7351E5006A0C72 /* dlarra.f */,
+				DC8416D71C7351E5006A0C72 /* dlarrb.f */,
+				DC8416D81C7351E5006A0C72 /* dlarrc.f */,
+				DC8416D91C7351E5006A0C72 /* dlarrd.f */,
+				DC8416DA1C7351E5006A0C72 /* dlarre.f */,
+				DC8416DB1C7351E5006A0C72 /* dlarrf.f */,
+				DC8416DC1C7351E5006A0C72 /* dlarrj.f */,
+				DC8416DD1C7351E5006A0C72 /* dlarrk.f */,
+				DC8416DE1C7351E5006A0C72 /* dlarrr.f */,
+				DC8416DF1C7351E5006A0C72 /* dlarrv.f */,
+				DC8416E01C7351E5006A0C72 /* dlartg.f */,
+				DC8416E11C7351E5006A0C72 /* dlartv.f */,
+				DC8416E21C7351E5006A0C72 /* dlaruv.f */,
+				DC8416E31C7351E5006A0C72 /* dlarz.f */,
+				DC8416E41C7351E5006A0C72 /* dlarzb.f */,
+				DC8416E51C7351E5006A0C72 /* dlarzt.f */,
+				DC8416E61C7351E5006A0C72 /* dlas2.f */,
+				DC8416E71C7351E5006A0C72 /* dlascl.f */,
+				DC8416E81C7351E5006A0C72 /* dlasd0.f */,
+				DC8416E91C7351E5006A0C72 /* dlasd1.f */,
+				DC8416EA1C7351E5006A0C72 /* dlasd2.f */,
+				DC8416EB1C7351E5006A0C72 /* dlasd3.f */,
+				DC8416EC1C7351E5006A0C72 /* dlasd4.f */,
+				DC8416ED1C7351E5006A0C72 /* dlasd5.f */,
+				DC8416EE1C7351E5006A0C72 /* dlasd6.f */,
+				DC8416EF1C7351E5006A0C72 /* dlasd7.f */,
+				DC8416F01C7351E5006A0C72 /* dlasd8.f */,
+				DC8416F11C7351E5006A0C72 /* dlasda.f */,
+				DC8416F21C7351E5006A0C72 /* dlasdq.f */,
+				DC8416F31C7351E5006A0C72 /* dlasdt.f */,
+				DC8416F41C7351E5006A0C72 /* dlaset.f */,
+				DC8416F51C7351E5006A0C72 /* dlasq1.f */,
+				DC8416F61C7351E5006A0C72 /* dlasq2.f */,
+				DC8416F71C7351E5006A0C72 /* dlasq3.f */,
+				DC8416F81C7351E5006A0C72 /* dlasq4.f */,
+				DC8416F91C7351E5006A0C72 /* dlasq5.f */,
+				DC8416FA1C7351E5006A0C72 /* dlasq6.f */,
+				DC8416FB1C7351E5006A0C72 /* dlasr.f */,
+				DC8416FC1C7351E5006A0C72 /* dlasrt.f */,
+				DC8416FD1C7351E5006A0C72 /* dlassq.f */,
+				DC8416FE1C7351E5006A0C72 /* dlasv2.f */,
+				DC8416FF1C7351E5006A0C72 /* dlaswp.f */,
+				DC8417001C7351E5006A0C72 /* dlasy2.f */,
+				DC8417011C7351E5006A0C72 /* dlasyf.f */,
+				DC8417021C7351E5006A0C72 /* dlatbs.f */,
+				DC8417031C7351E5006A0C72 /* dlatdf.f */,
+				DC8417041C7351E5006A0C72 /* dlatps.f */,
+				DC8417051C7351E5006A0C72 /* dlatrd.f */,
+				DC8417061C7351E5006A0C72 /* dlatrs.f */,
+				DC8417071C7351E5006A0C72 /* dlatrz.f */,
+				DC8417081C7351E5006A0C72 /* dlatzm.f */,
+				DC8417091C7351E5006A0C72 /* dlauu2.f */,
+				DC84170A1C7351E5006A0C72 /* dlauum.f */,
+				DC84170B1C7351E5006A0C72 /* dlazq3.f */,
+				DC84170C1C7351E5006A0C72 /* dlazq4.f */,
+				DC84170D1C7351E5006A0C72 /* dnrm2.f */,
+				DC84170E1C7351E5006A0C72 /* dopgtr.f */,
+				DC84170F1C7351E5006A0C72 /* dopmtr.f */,
+				DC8417101C7351E5006A0C72 /* dorg2l.f */,
+				DC8417111C7351E5006A0C72 /* dorg2r.f */,
+				DC8417121C7351E5006A0C72 /* dorgbr.f */,
+				DC8417131C7351E5006A0C72 /* dorghr.f */,
+				DC8417141C7351E5006A0C72 /* dorgl2.f */,
+				DC8417151C7351E5006A0C72 /* dorglq.f */,
+				DC8417161C7351E5006A0C72 /* dorgql.f */,
+				DC8417171C7351E5006A0C72 /* dorgqr.f */,
+				DC8417181C7351E5006A0C72 /* dorgr2.f */,
+				DC8417191C7351E5006A0C72 /* dorgrq.f */,
+				DC84171A1C7351E5006A0C72 /* dorgtr.f */,
+				DC84171B1C7351E5006A0C72 /* dorm2l.f */,
+				DC84171C1C7351E5006A0C72 /* dorm2r.f */,
+				DC84171D1C7351E5006A0C72 /* dormbr.f */,
+				DC84171E1C7351E5006A0C72 /* dormhr.f */,
+				DC84171F1C7351E5006A0C72 /* dorml2.f */,
+				DC8417201C7351E5006A0C72 /* dormlq.f */,
+				DC8417211C7351E5006A0C72 /* dormql.f */,
+				DC8417221C7351E5006A0C72 /* dormqr.f */,
+				DC8417231C7351E5006A0C72 /* dormr2.f */,
+				DC8417241C7351E5006A0C72 /* dormr3.f */,
+				DC8417251C7351E5006A0C72 /* dormrq.f */,
+				DC8417261C7351E5006A0C72 /* dormrz.f */,
+				DC8417271C7351E5006A0C72 /* dormtr.f */,
+				DC8417281C7351E5006A0C72 /* dpbcon.f */,
+				DC8417291C7351E5006A0C72 /* dpbequ.f */,
+				DC84172A1C7351E5006A0C72 /* dpbrfs.f */,
+				DC84172B1C7351E5006A0C72 /* dpbstf.f */,
+				DC84172C1C7351E5006A0C72 /* dpbsv.f */,
+				DC84172D1C7351E5006A0C72 /* dpbsvx.f */,
+				DC84172E1C7351E5006A0C72 /* dpbtf2.f */,
+				DC84172F1C7351E5006A0C72 /* dpbtrf.f */,
+				DC8417301C7351E5006A0C72 /* dpbtrs.f */,
+				DC8417311C7351E5006A0C72 /* dpocon.f */,
+				DC8417321C7351E5006A0C72 /* dpoequ.f */,
+				DC8417331C7351E5006A0C72 /* dporfs.f */,
+				DC8417341C7351E5006A0C72 /* dposv.f */,
+				DC8417351C7351E5006A0C72 /* dposvx.f */,
+				DC8417361C7351E5006A0C72 /* dpotf2.f */,
+				DC8417371C7351E5006A0C72 /* dpotrf.f */,
+				DC8417381C7351E5006A0C72 /* dpotri.f */,
+				DC8417391C7351E5006A0C72 /* dpotrs.f */,
+				DC84173A1C7351E5006A0C72 /* dppcon.f */,
+				DC84173B1C7351E5006A0C72 /* dppequ.f */,
+				DC84173C1C7351E5006A0C72 /* dpprfs.f */,
+				DC84173D1C7351E5006A0C72 /* dppsv.f */,
+				DC84173E1C7351E5006A0C72 /* dppsvx.f */,
+				DC84173F1C7351E5006A0C72 /* dpptrf.f */,
+				DC8417401C7351E5006A0C72 /* dpptri.f */,
+				DC8417411C7351E5006A0C72 /* dpptrs.f */,
+				DC8417421C7351E5006A0C72 /* dptcon.f */,
+				DC8417431C7351E5006A0C72 /* dpteqr.f */,
+				DC8417441C7351E5006A0C72 /* dptrfs.f */,
+				DC8417451C7351E5006A0C72 /* dptsv.f */,
+				DC8417461C7351E5006A0C72 /* dptsvx.f */,
+				DC8417471C7351E5006A0C72 /* dpttrf.f */,
+				DC8417481C7351E5006A0C72 /* dpttrs.f */,
+				DC8417491C7351E5006A0C72 /* dptts2.f */,
+				DC84174A1C7351E5006A0C72 /* drot.f */,
+				DC84174B1C7351E5006A0C72 /* drotg.f */,
+				DC84174C1C7351E5006A0C72 /* drotm.f */,
+				DC84174D1C7351E5006A0C72 /* drotmg.f */,
+				DC84174E1C7351E5006A0C72 /* drscl.f */,
+				DC84174F1C7351E5006A0C72 /* dsbev.f */,
+				DC8417501C7351E5006A0C72 /* dsbevd.f */,
+				DC8417511C7351E5006A0C72 /* dsbevx.f */,
+				DC8417521C7351E5006A0C72 /* dsbgst.f */,
+				DC8417531C7351E5006A0C72 /* dsbgv.f */,
+				DC8417541C7351E5006A0C72 /* dsbgvd.f */,
+				DC8417551C7351E5006A0C72 /* dsbgvx.f */,
+				DC8417561C7351E5006A0C72 /* dsbmv.f */,
+				DC8417571C7351E5006A0C72 /* dsbtrd.f */,
+				DC8417581C7351E5006A0C72 /* dscal.f */,
+				DC8417591C7351E5006A0C72 /* dsdot.f */,
+				DC84175A1C7351E5006A0C72 /* dsgesv.f */,
+				DC84175B1C7351E5006A0C72 /* dspcon.f */,
+				DC84175C1C7351E5006A0C72 /* dspev.f */,
+				DC84175D1C7351E5006A0C72 /* dspevd.f */,
+				DC84175E1C7351E5006A0C72 /* dspevx.f */,
+				DC84175F1C7351E5006A0C72 /* dspgst.f */,
+				DC8417601C7351E5006A0C72 /* dspgv.f */,
+				DC8417611C7351E5006A0C72 /* dspgvd.f */,
+				DC8417621C7351E5006A0C72 /* dspgvx.f */,
+				DC8417631C7351E5006A0C72 /* dspmv.f */,
+				DC8417641C7351E5006A0C72 /* dspr.f */,
+				DC8417651C7351E5006A0C72 /* dspr2.f */,
+				DC8417661C7351E5006A0C72 /* dsprfs.f */,
+				DC8417671C7351E5006A0C72 /* dspsv.f */,
+				DC8417681C7351E5006A0C72 /* dspsvx.f */,
+				DC8417691C7351E5006A0C72 /* dsptrd.f */,
+				DC84176A1C7351E5006A0C72 /* dsptrf.f */,
+				DC84176B1C7351E5006A0C72 /* dsptri.f */,
+				DC84176C1C7351E5006A0C72 /* dsptrs.f */,
+				DC84176D1C7351E5006A0C72 /* dstebz.f */,
+				DC84176E1C7351E5006A0C72 /* dstedc.f */,
+				DC84176F1C7351E5006A0C72 /* dstegr.f */,
+				DC8417701C7351E5006A0C72 /* dstein.f */,
+				DC8417711C7351E5006A0C72 /* dstemr.f */,
+				DC8417721C7351E5006A0C72 /* dsteqr.f */,
+				DC8417731C7351E5006A0C72 /* dsterf.f */,
+				DC8417741C7351E5006A0C72 /* dstev.f */,
+				DC8417751C7351E5006A0C72 /* dstevd.f */,
+				DC8417761C7351E5006A0C72 /* dstevr.f */,
+				DC8417771C7351E5006A0C72 /* dstevx.f */,
+				DC8417781C7351E5006A0C72 /* dswap.f */,
+				DC8417791C7351E5006A0C72 /* dsycon.f */,
+				DC84177A1C7351E5006A0C72 /* dsyev.f */,
+				DC84177B1C7351E5006A0C72 /* dsyevd.f */,
+				DC84177C1C7351E5006A0C72 /* dsyevr.f */,
+				DC84177D1C7351E5006A0C72 /* dsyevx.f */,
+				DC84177E1C7351E5006A0C72 /* dsygs2.f */,
+				DC84177F1C7351E5006A0C72 /* dsygst.f */,
+				DC8417801C7351E5006A0C72 /* dsygv.f */,
+				DC8417811C7351E5006A0C72 /* dsygvd.f */,
+				DC8417821C7351E5006A0C72 /* dsygvx.f */,
+				DC8417831C7351E5006A0C72 /* dsymm.f */,
+				DC8417841C7351E5006A0C72 /* dsymv.f */,
+				DC8417851C7351E5006A0C72 /* dsyr.f */,
+				DC8417861C7351E5006A0C72 /* dsyr2.f */,
+				DC8417871C7351E5006A0C72 /* dsyr2k.f */,
+				DC8417881C7351E5006A0C72 /* dsyrfs.f */,
+				DC8417891C7351E5006A0C72 /* dsyrk.f */,
+				DC84178A1C7351E5006A0C72 /* dsysv.f */,
+				DC84178B1C7351E5006A0C72 /* dsysvx.f */,
+				DC84178C1C7351E5006A0C72 /* dsytd2.f */,
+				DC84178D1C7351E5006A0C72 /* dsytf2.f */,
+				DC84178E1C7351E5006A0C72 /* dsytrd.f */,
+				DC84178F1C7351E5006A0C72 /* dsytrf.f */,
+				DC8417901C7351E5006A0C72 /* dsytri.f */,
+				DC8417911C7351E5006A0C72 /* dsytrs.f */,
+				DC8417921C7351E5006A0C72 /* dtbcon.f */,
+				DC8417931C7351E5006A0C72 /* dtbmv.f */,
+				DC8417941C7351E5006A0C72 /* dtbrfs.f */,
+				DC8417951C7351E5006A0C72 /* dtbsv.f */,
+				DC8417961C7351E5006A0C72 /* dtbtrs.f */,
+				DC8417971C7351E5006A0C72 /* dtgevc.f */,
+				DC8417981C7351E5006A0C72 /* dtgex2.f */,
+				DC8417991C7351E5006A0C72 /* dtgexc.f */,
+				DC84179A1C7351E5006A0C72 /* dtgsen.f */,
+				DC84179B1C7351E5006A0C72 /* dtgsja.f */,
+				DC84179C1C7351E5006A0C72 /* dtgsna.f */,
+				DC84179D1C7351E5006A0C72 /* dtgsy2.f */,
+				DC84179E1C7351E5006A0C72 /* dtgsyl.f */,
+				DC84179F1C7351E5006A0C72 /* dtpcon.f */,
+				DC8417A01C7351E6006A0C72 /* dtpmv.f */,
+				DC8417A11C7351E6006A0C72 /* dtprfs.f */,
+				DC8417A21C7351E6006A0C72 /* dtpsv.f */,
+				DC8417A31C7351E6006A0C72 /* dtptri.f */,
+				DC8417A41C7351E6006A0C72 /* dtptrs.f */,
+				DC8417A51C7351E6006A0C72 /* dtrcon.f */,
+				DC8417A61C7351E6006A0C72 /* dtrevc.f */,
+				DC8417A71C7351E6006A0C72 /* dtrexc.f */,
+				DC8417A81C7351E6006A0C72 /* dtrmm.f */,
+				DC8417A91C7351E6006A0C72 /* dtrmv.f */,
+				DC8417AA1C7351E6006A0C72 /* dtrrfs.f */,
+				DC8417AB1C7351E6006A0C72 /* dtrsen.f */,
+				DC8417AC1C7351E6006A0C72 /* dtrsm.f */,
+				DC8417AD1C7351E6006A0C72 /* dtrsna.f */,
+				DC8417AE1C7351E6006A0C72 /* dtrsv.f */,
+				DC8417AF1C7351E6006A0C72 /* dtrsyl.f */,
+				DC8417B01C7351E6006A0C72 /* dtrti2.f */,
+				DC8417B11C7351E6006A0C72 /* dtrtri.f */,
+				DC8417B21C7351E6006A0C72 /* dtrtrs.f */,
+				DC8417B31C7351E6006A0C72 /* dtzrqf.f */,
+				DC8417B41C7351E6006A0C72 /* dtzrzf.f */,
+				DC8417B51C7351E6006A0C72 /* dzasum.f */,
+				DC8417B61C7351E6006A0C72 /* dznrm2.f */,
+				DC8417B71C7351E6006A0C72 /* dzsum1.f */,
+				DC8417B81C7351E6006A0C72 /* icamax.f */,
+				DC8417B91C7351E6006A0C72 /* idamax.f */,
+				DC8417BA1C7351E6006A0C72 /* ieeeck.f */,
+				DC8417BB1C7351E6006A0C72 /* ilaenv.f */,
+				DC8417BC1C7351E6006A0C72 /* isamax.f */,
+				DC8417BD1C7351E6006A0C72 /* izamax.f */,
+				DC8417BE1C7351E6006A0C72 /* lsame.f */,
+				DC8417BF1C7351E6006A0C72 /* mtx_lib.f */,
+				DC8417C01C7351E6006A0C72 /* sasum.f */,
+				DC8417C11C7351E6006A0C72 /* saxpy.f */,
+				DC8417C21C7351E6006A0C72 /* scabs1.f */,
+				DC8417C31C7351E6006A0C72 /* scasum.f */,
+				DC8417C41C7351E6006A0C72 /* scnrm2.f */,
+				DC8417C51C7351E6006A0C72 /* scopy.f */,
+				DC8417C61C7351E6006A0C72 /* sdot.f */,
+				DC8417C71C7351E6006A0C72 /* sdsdot.f */,
+				DC8417C81C7351E6006A0C72 /* sgbmv.f */,
+				DC8417C91C7351E6006A0C72 /* sgemm.f */,
+				DC8417CA1C7351E6006A0C72 /* sgemv.f */,
+				DC8417CB1C7351E6006A0C72 /* sger.f */,
+				DC8417CC1C7351E6006A0C72 /* snrm2.f */,
+				DC8417CD1C7351E6006A0C72 /* square_solve.f90 */,
+				DC8417CE1C7351E6006A0C72 /* srot.f */,
+				DC8417CF1C7351E6006A0C72 /* srotg.f */,
+				DC8417D01C7351E6006A0C72 /* srotm.f */,
+				DC8417D11C7351E6006A0C72 /* srotmg.f */,
+				DC8417D21C7351E6006A0C72 /* ssbmv.f */,
+				DC8417D31C7351E6006A0C72 /* sscal.f */,
+				DC8417D41C7351E6006A0C72 /* sspmv.f */,
+				DC8417D51C7351E6006A0C72 /* sspr.f */,
+				DC8417D61C7351E6006A0C72 /* sspr2.f */,
+				DC8417D71C7351E6006A0C72 /* sswap.f */,
+				DC8417D81C7351E6006A0C72 /* ssymm.f */,
+				DC8417D91C7351E6006A0C72 /* ssymv.f */,
+				DC8417DA1C7351E6006A0C72 /* ssyr.f */,
+				DC8417DB1C7351E6006A0C72 /* ssyr2.f */,
+				DC8417DC1C7351E6006A0C72 /* ssyr2k.f */,
+				DC8417DD1C7351E6006A0C72 /* ssyrk.f */,
+				DC8417DE1C7351E6006A0C72 /* stbmv.f */,
+				DC8417DF1C7351E6006A0C72 /* stbsv.f */,
+				DC8417E01C7351E6006A0C72 /* stpmv.f */,
+				DC8417E11C7351E6006A0C72 /* stpsv.f */,
+				DC8417E21C7351E6006A0C72 /* strmm.f */,
+				DC8417E31C7351E6006A0C72 /* strmv.f */,
+				DC8417E41C7351E6006A0C72 /* strsm.f */,
+				DC8417E51C7351E6006A0C72 /* strsv.f */,
+				DC8417E61C7351E6006A0C72 /* xerbla.f */,
+				DC8417E71C7351E6006A0C72 /* xerbla_sav.f */,
+				DC8417E81C7351E6006A0C72 /* zaxpy.f */,
+				DC8417E91C7351E6006A0C72 /* zcopy.f */,
+				DC8417EA1C7351E6006A0C72 /* zdotc.f */,
+				DC8417EB1C7351E6006A0C72 /* zdotu.f */,
+				DC8417EC1C7351E6006A0C72 /* zdrot.f */,
+				DC8417ED1C7351E6006A0C72 /* zdscal.f */,
+				DC8417EE1C7351E6006A0C72 /* zgbmv.f */,
+				DC8417EF1C7351E6006A0C72 /* zgemm.f */,
+				DC8417F01C7351E6006A0C72 /* zgemv.f */,
+				DC8417F11C7351E6006A0C72 /* zgerc.f */,
+				DC8417F21C7351E6006A0C72 /* zgeru.f */,
+				DC8417F31C7351E6006A0C72 /* zhbmv.f */,
+				DC8417F41C7351E6006A0C72 /* zhemm.f */,
+				DC8417F51C7351E6006A0C72 /* zhemv.f */,
+				DC8417F61C7351E6006A0C72 /* zher.f */,
+				DC8417F71C7351E6006A0C72 /* zher2.f */,
+				DC8417F81C7351E6006A0C72 /* zher2k.f */,
+				DC8417F91C7351E6006A0C72 /* zherk.f */,
+				DC8417FA1C7351E6006A0C72 /* zhpmv.f */,
+				DC8417FB1C7351E6006A0C72 /* zhpr.f */,
+				DC8417FC1C7351E6006A0C72 /* zhpr2.f */,
+				DC8417FD1C7351E6006A0C72 /* zrotg.f */,
+				DC8417FE1C7351E6006A0C72 /* zscal.f */,
+				DC8417FF1C7351E6006A0C72 /* zswap.f */,
+				DC8418001C7351E6006A0C72 /* zsymm.f */,
+				DC8418011C7351E6006A0C72 /* zsyr2k.f */,
+				DC8418021C7351E6006A0C72 /* zsyrk.f */,
+				DC8418031C7351E6006A0C72 /* ztbmv.f */,
+				DC8418041C7351E6006A0C72 /* ztbsv.f */,
+				DC8418051C7351E6006A0C72 /* ztpmv.f */,
+				DC8418061C7351E6006A0C72 /* ztpsv.f */,
+				DC8418071C7351E6006A0C72 /* ztrmm.f */,
+				DC8418081C7351E6006A0C72 /* ztrmv.f */,
+				DC8418091C7351E6006A0C72 /* ztrsm.f */,
+				DC84180A1C7351E6006A0C72 /* ztrsv.f */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DC8418471C7351E6006A0C72 /* output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = output;
+			sourceTree = "<group>";
+		};
+		DC8418571C7351E7006A0C72 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DC8418581C7351E7006A0C72 /* chemical_reactions.f90 */,
+				DC8418591C7351E7006A0C72 /* chemical_species.f90 */,
+				DC84185A1C7351E7006A0C72 /* CO.f90 */,
+				DC84185B1C7351E7006A0C72 /* CO_interpol.f90 */,
+				DC84185C1C7351E7006A0C72 /* CO_sauvegarde.f90 */,
+				DC84185D1C7351E7006A0C72 /* constants.f90 */,
+				DC84185E1C7351E7006A0C72 /* def.f90 */,
+				DC3FAD222170A38E00CF661F /* drive.f90 */,
+				DCB714F41F7A3D4A00167FF4 /* dust.f90 */,
+				DC84185F1C7351E7006A0C72 /* energetics.f90 */,
+				DC8418601C7351E7006A0C72 /* evolution.f90 */,
+				DC8418611C7351E7006A0C72 /* H2.f90 */,
+				DC8418621C7351E7006A0C72 /* H2_orig.f90 */,
+				DC8418631C7351E7006A0C72 /* H2_SAW.f90 */,
+				DC8418641C7351E7006A0C72 /* initialize.f90 */,
+				DC8418651C7351E7006A0C72 /* integrateur_vode.f */,
+				DC8418661C7351E7006A0C72 /* line_excit.f90 */,
+				DC8418671C7351E7006A0C72 /* mhd_vode.f90 */,
+				DC62448F1E97E31B0068D21A /* mhd_vode.sh */,
+				DC8418681C7351E7006A0C72 /* molecular_cooling.f90 */,
+				DC8418691C7351E7006A0C72 /* numerical_recipes.f90 */,
+				DC84186A1C7351E7006A0C72 /* outputs.f90 */,
+				DCF6263D1D547C1600F62019 /* outputs_hdf5.f90 */,
+				DC84186B1C7351E7006A0C72 /* precision.f90 */,
+				DCF6263E1D547C1600F62019 /* profil_tables.f90 */,
+				DC7265731D5CA97700F63C5B /* heating_rates.f90 */,
+				DCB714F51F7A3D4A00167FF4 /* radiation.f90 */,
+				DC84186C1C7351E7006A0C72 /* read_fe_data.f90 */,
+				DC62448E1E97E2EE0068D21A /* refh2.f90 */,
+				DC6244901E97E36B0068D21A /* shield.f90 */,
+				DCF6263F1D547C1600F62019 /* shock_write_HDF5.py */,
+				DC84186D1C7351E7006A0C72 /* SiO.f90 */,
+				DC56D83121357F5200C114AF /* switch_cj.f90 */,
+				DCF626401D547C1600F62019 /* techconfig.f90 */,
+				DC84186E1C7351E7006A0C72 /* tools.f90 */,
+				DC84186F1C7351E7006A0C72 /* var_VODE.f90 */,
+				DC8418701C7351E7006A0C72 /* variables_mhd.f90 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		DC57F0711C73458600BF2FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = DC57F0741C73458600BF2FF0 /* Build configuration list for PBXProject "Shock_1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC57F0701C73458600BF2FF0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		DC57F0751C73458600BF2FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DC57F0761C73458600BF2FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC57F0741C73458600BF2FF0 /* Build configuration list for PBXProject "Shock_1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC57F0751C73458600BF2FF0 /* Debug */,
+				DC57F0761C73458600BF2FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC57F0711C73458600BF2FF0 /* Project object */;
+}
